@@ -1440,6 +1440,8 @@ dependencies = [
     { name = "langchain-core" },
     { name = "langchain-huggingface" },
     { name = "sentence-transformers" },
+    { name = "torch" },
+    { name = "transformers" },
 ]
 
 [package.metadata]
@@ -1451,6 +1453,8 @@ requires-dist = [
     { name = "langchain-core", specifier = ">=1.6.5" },
     { name = "langchain-huggingface", specifier = ">=1.2.2" },
     { name = "sentence-transformers", specifier = ">=6.1.0" },
+    { name = "torch", specifier = ">=2.14.0" },
+    { name = "transformers", specifier = ">=5.17.0" },
 ]
 
 [[package]]

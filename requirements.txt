@@ -5,3 +5,5 @@ sentence-transformers
 langchain-huggingface 
 langchain-chroma 
 chromadb
+transformers
+torch
