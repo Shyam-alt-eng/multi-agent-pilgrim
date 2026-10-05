@@ -1,0 +1,23 @@
+{
+  "kept_reorganized": [
+    "phase2_document_builder.py -> src/ingestion/loader.py",
+    "phase3_chunk_builder_updated.py -> src/chunking/chunker.py",
+    "phase4_chromadb_ingest.py -> src/vector_db/vector_store.py",
+    "phase4_retrieval_engine.py -> src/retrieval/retriever.py",
+    "phase4_retrieval_test.py -> tests/retrieval_smoke_test.py",
+    "phase4 evaluation scripts -> tests/*.py",
+    "phase2/3 artifacts -> data/processed/",
+    "evaluation datasets/results -> data/evaluation/",
+    "retrieval_output.txt -> logs/retrieval_smoke_test.txt"
+  ],
+  "deleted_as_obsolete_or_machine_local": [
+    ".git/",
+    "myenv/",
+    "data/__pycache__/",
+    "test.py",
+    "data/pilgrimai_cleaned.zip (nested duplicate)"
+  ],
+  "not_copied_from_source_zip": [
+    "data/phase4_retrival_test2.py (not present in supplied ZIP)"
+  ]
+}

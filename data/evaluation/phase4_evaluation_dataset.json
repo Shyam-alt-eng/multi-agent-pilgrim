@@ -1,0 +1,3015 @@
+[
+  {
+    "id": "T001",
+    "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0001",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T002",
+    "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0001",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T003",
+    "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0001",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T004",
+    "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0001",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T005",
+    "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0001",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T006",
+    "query": "history of Sri Sita Ramachandra Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0002",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T007",
+    "query": "darshan timings and worship information at Sri Sita Ramachandra Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0002",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T008",
+    "query": "religious significance of Sri Sita Ramachandra Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0002",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T009",
+    "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0002",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T010",
+    "query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0002",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T011",
+    "query": "history of Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0003",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T012",
+    "query": "darshan timings and worship information at Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0003",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T013",
+    "query": "religious significance of Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0003",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T014",
+    "query": "architecture of Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0003",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T015",
+    "query": "how to travel to Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0003",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T016",
+    "query": "history of Sri Gnana Saraswathi Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0004",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T017",
+    "query": "darshan timings and worship information at Sri Gnana Saraswathi Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0004",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T018",
+    "query": "religious significance of Sri Gnana Saraswathi Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0004",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T019",
+    "query": "architecture of Sri Gnana Saraswathi Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0004",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T020",
+    "query": "how to travel to Sri Gnana Saraswathi Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0004",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T021",
+    "query": "history of Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0005",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T022",
+    "query": "darshan timings and worship information at Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0005",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T023",
+    "query": "religious significance of Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0005",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T024",
+    "query": "architecture of Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0005",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T025",
+    "query": "how to travel to Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0005",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T026",
+    "query": "history of Sri Jogulamba Devi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0006",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T027",
+    "query": "darshan timings and worship information at Sri Jogulamba Devi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0006",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T028",
+    "query": "religious significance of Sri Jogulamba Devi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0006",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T029",
+    "query": "architecture of Sri Jogulamba Devi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0006",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T030",
+    "query": "how to travel to Sri Jogulamba Devi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0006",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T031",
+    "query": "history of Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0007",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T032",
+    "query": "darshan timings and worship information at Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0007",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T033",
+    "query": "religious significance of Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0007",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T034",
+    "query": "architecture of Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0007",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T035",
+    "query": "how to travel to Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0007",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T036",
+    "query": "history of Sri Balaji Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0008",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T037",
+    "query": "darshan timings and worship information at Sri Balaji Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0008",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T038",
+    "query": "religious significance of Sri Balaji Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0008",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T039",
+    "query": "architecture of Sri Balaji Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0008",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T040",
+    "query": "how to travel to Sri Balaji Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0008",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T041",
+    "query": "history of Birla Mandir Hyderabad",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0009",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T042",
+    "query": "darshan timings and worship information at Birla Mandir Hyderabad",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0009",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T043",
+    "query": "religious significance of Birla Mandir Hyderabad",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0009",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T044",
+    "query": "architecture of Birla Mandir Hyderabad",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0009",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T045",
+    "query": "how to travel to Birla Mandir Hyderabad",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0009",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T046",
+    "query": "history of Sri Sanghi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0010",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T047",
+    "query": "darshan timings and worship information at Sri Sanghi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0010",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T048",
+    "query": "religious significance of Sri Sanghi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0010",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T049",
+    "query": "architecture of Sri Sanghi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0010",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T050",
+    "query": "how to travel to Sri Sanghi Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0010",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T051",
+    "query": "history of Sri Ramalingeswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0011",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T052",
+    "query": "darshan timings and worship information at Sri Ramalingeswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0011",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T053",
+    "query": "religious significance of Sri Ramalingeswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0011",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T054",
+    "query": "architecture of Sri Ramalingeswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0011",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T055",
+    "query": "how to travel to Sri Ramalingeswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0011",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T056",
+    "query": "history of Sri Bhadrakali Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0012",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T057",
+    "query": "darshan timings and worship information at Sri Bhadrakali Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0012",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T058",
+    "query": "religious significance of Sri Bhadrakali Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0012",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T059",
+    "query": "architecture of Sri Bhadrakali Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0012",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T060",
+    "query": "how to travel to Sri Bhadrakali Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0012",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T061",
+    "query": "history of Sri Rudreshwara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0013",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T062",
+    "query": "darshan timings and worship information at Sri Rudreshwara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0013",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T063",
+    "query": "religious significance of Sri Rudreshwara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0013",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T064",
+    "query": "architecture of Sri Rudreshwara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0013",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T065",
+    "query": "how to travel to Sri Rudreshwara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0013",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T066",
+    "query": "history of Ramappa Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0014",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T067",
+    "query": "darshan timings and worship information at Ramappa Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0014",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T068",
+    "query": "religious significance of Ramappa Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0014",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T069",
+    "query": "architecture of Ramappa Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0014",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T070",
+    "query": "how to travel to Ramappa Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0014",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T071",
+    "query": "history of Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0015",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T072",
+    "query": "darshan timings and worship information at Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0015",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T073",
+    "query": "religious significance of Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0015",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T074",
+    "query": "architecture of Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0015",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T075",
+    "query": "how to travel to Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0015",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T076",
+    "query": "history of Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0016",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T077",
+    "query": "darshan timings and worship information at Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0016",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T078",
+    "query": "religious significance of Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0016",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T079",
+    "query": "architecture of Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0016",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T080",
+    "query": "how to travel to Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0016",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T081",
+    "query": "history of Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0017",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T082",
+    "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0017",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T083",
+    "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0017",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T084",
+    "query": "architecture of Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0017",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T085",
+    "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0017",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T086",
+    "query": "history of Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0018",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T087",
+    "query": "darshan timings and worship information at Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0018",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T088",
+    "query": "religious significance of Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0018",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T089",
+    "query": "architecture of Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0018",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T090",
+    "query": "how to travel to Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0018",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T091",
+    "query": "history of Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0019",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T092",
+    "query": "darshan timings and worship information at Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0019",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T093",
+    "query": "religious significance of Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0019",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T094",
+    "query": "architecture of Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0019",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T095",
+    "query": "how to travel to Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0019",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T096",
+    "query": "history of Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0020",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T097",
+    "query": "darshan timings and worship information at Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0020",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T098",
+    "query": "religious significance of Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0020",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T099",
+    "query": "architecture of Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0020",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T100",
+    "query": "how to travel to Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0020",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T101",
+    "query": "history of Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0021",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T102",
+    "query": "darshan timings and worship information at Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0021",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T103",
+    "query": "religious significance of Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0021",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T104",
+    "query": "architecture of Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0021",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T105",
+    "query": "how to travel to Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0021",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T106",
+    "query": "history of Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0022",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T107",
+    "query": "darshan timings and worship information at Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0022",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T108",
+    "query": "religious significance of Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0022",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T109",
+    "query": "architecture of Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0022",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T110",
+    "query": "how to travel to Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0022",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "T111",
+    "query": "history of Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0023",
+      "section": "history"
+    }
+  },
+  {
+    "id": "T112",
+    "query": "darshan timings and worship information at Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0023",
+      "section": "worship"
+    }
+  },
+  {
+    "id": "T113",
+    "query": "religious significance of Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0023",
+      "section": "significance"
+    }
+  },
+  {
+    "id": "T114",
+    "query": "architecture of Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0023",
+      "section": "architecture"
+    }
+  },
+  {
+    "id": "T115",
+    "query": "how to travel to Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "temple",
+    "expected": {
+      "source_type": "temple",
+      "temple_id": "T0023",
+      "section": "travel"
+    }
+  },
+  {
+    "id": "A116",
+    "query": "accommodation near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "A117",
+    "query": "hotels to stay near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "A118",
+    "query": "places to stay near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "A119",
+    "query": "accommodation near Sri Sita Ramachandra Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "A120",
+    "query": "hotels to stay near Sri Sita Ramachandra Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "A121",
+    "query": "places to stay near Sri Sita Ramachandra Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "A122",
+    "query": "accommodation near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "A123",
+    "query": "hotels to stay near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "A124",
+    "query": "places to stay near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "A125",
+    "query": "accommodation near Sri Gnana Saraswathi Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "A126",
+    "query": "hotels to stay near Sri Gnana Saraswathi Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "A127",
+    "query": "places to stay near Sri Gnana Saraswathi Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "A128",
+    "query": "accommodation near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "A129",
+    "query": "hotels to stay near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "A130",
+    "query": "places to stay near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "A131",
+    "query": "accommodation near Sri Jogulamba Devi Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "A132",
+    "query": "hotels to stay near Sri Jogulamba Devi Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "A133",
+    "query": "places to stay near Sri Jogulamba Devi Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "A134",
+    "query": "accommodation near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "A135",
+    "query": "hotels to stay near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "A136",
+    "query": "places to stay near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "A137",
+    "query": "accommodation near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "A138",
+    "query": "hotels to stay near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "A139",
+    "query": "places to stay near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "A140",
+    "query": "accommodation near Birla Mandir Hyderabad",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "A141",
+    "query": "hotels to stay near Birla Mandir Hyderabad",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "A142",
+    "query": "places to stay near Birla Mandir Hyderabad",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "A143",
+    "query": "accommodation near Sri Sanghi Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "A144",
+    "query": "hotels to stay near Sri Sanghi Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "A145",
+    "query": "places to stay near Sri Sanghi Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "A146",
+    "query": "accommodation near Sri Ramalingeswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "A147",
+    "query": "hotels to stay near Sri Ramalingeswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "A148",
+    "query": "places to stay near Sri Ramalingeswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "A149",
+    "query": "accommodation near Sri Bhadrakali Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "A150",
+    "query": "hotels to stay near Sri Bhadrakali Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "A151",
+    "query": "places to stay near Sri Bhadrakali Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "A152",
+    "query": "accommodation near Sri Rudreshwara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "A153",
+    "query": "hotels to stay near Sri Rudreshwara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "A154",
+    "query": "places to stay near Sri Rudreshwara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "A155",
+    "query": "accommodation near Ramappa Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "A156",
+    "query": "hotels to stay near Ramappa Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "A157",
+    "query": "places to stay near Ramappa Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "A158",
+    "query": "accommodation near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "A159",
+    "query": "hotels to stay near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "A160",
+    "query": "places to stay near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "A161",
+    "query": "accommodation near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "A162",
+    "query": "hotels to stay near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "A163",
+    "query": "places to stay near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "A164",
+    "query": "accommodation near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "A165",
+    "query": "hotels to stay near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "A166",
+    "query": "places to stay near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "A167",
+    "query": "accommodation near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "A168",
+    "query": "hotels to stay near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "A169",
+    "query": "places to stay near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "A170",
+    "query": "accommodation near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "A171",
+    "query": "hotels to stay near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "A172",
+    "query": "places to stay near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "A173",
+    "query": "accommodation near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "A174",
+    "query": "hotels to stay near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "A175",
+    "query": "places to stay near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "A176",
+    "query": "accommodation near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "A177",
+    "query": "hotels to stay near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "A178",
+    "query": "places to stay near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "A179",
+    "query": "accommodation near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "A180",
+    "query": "hotels to stay near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "A181",
+    "query": "places to stay near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "A182",
+    "query": "accommodation near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0023"
+    }
+  },
+  {
+    "id": "A183",
+    "query": "hotels to stay near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0023"
+    }
+  },
+  {
+    "id": "A184",
+    "query": "places to stay near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "accommodation",
+    "expected": {
+      "source_type": "accommodation",
+      "temple_id": "T0023"
+    }
+  },
+  {
+    "id": "F185",
+    "query": "restaurants near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "F186",
+    "query": "food near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "F187",
+    "query": "vegetarian restaurants near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "F188",
+    "query": "restaurants near Sri Sita Ramachandra Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "F189",
+    "query": "food near Sri Sita Ramachandra Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "F190",
+    "query": "vegetarian restaurants near Sri Sita Ramachandra Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "F191",
+    "query": "restaurants near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "F192",
+    "query": "food near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "F193",
+    "query": "vegetarian restaurants near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "F194",
+    "query": "restaurants near Sri Gnana Saraswathi Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "F195",
+    "query": "food near Sri Gnana Saraswathi Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "F196",
+    "query": "vegetarian restaurants near Sri Gnana Saraswathi Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "F197",
+    "query": "restaurants near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "F198",
+    "query": "food near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "F199",
+    "query": "vegetarian restaurants near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "F200",
+    "query": "restaurants near Sri Jogulamba Devi Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "F201",
+    "query": "food near Sri Jogulamba Devi Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "F202",
+    "query": "vegetarian restaurants near Sri Jogulamba Devi Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "F203",
+    "query": "restaurants near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "F204",
+    "query": "food near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "F205",
+    "query": "vegetarian restaurants near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "F206",
+    "query": "restaurants near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "F207",
+    "query": "food near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "F208",
+    "query": "vegetarian restaurants near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "F209",
+    "query": "restaurants near Birla Mandir Hyderabad",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "F210",
+    "query": "food near Birla Mandir Hyderabad",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "F211",
+    "query": "vegetarian restaurants near Birla Mandir Hyderabad",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "F212",
+    "query": "restaurants near Sri Sanghi Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "F213",
+    "query": "food near Sri Sanghi Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "F214",
+    "query": "vegetarian restaurants near Sri Sanghi Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "F215",
+    "query": "restaurants near Sri Ramalingeswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "F216",
+    "query": "food near Sri Ramalingeswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "F217",
+    "query": "vegetarian restaurants near Sri Ramalingeswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "F218",
+    "query": "restaurants near Sri Bhadrakali Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "F219",
+    "query": "food near Sri Bhadrakali Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "F220",
+    "query": "vegetarian restaurants near Sri Bhadrakali Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "F221",
+    "query": "restaurants near Sri Rudreshwara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "F222",
+    "query": "food near Sri Rudreshwara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "F223",
+    "query": "vegetarian restaurants near Sri Rudreshwara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "F224",
+    "query": "restaurants near Ramappa Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "F225",
+    "query": "food near Ramappa Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "F226",
+    "query": "vegetarian restaurants near Ramappa Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "F227",
+    "query": "restaurants near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "F228",
+    "query": "food near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "F229",
+    "query": "vegetarian restaurants near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "F230",
+    "query": "restaurants near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "F231",
+    "query": "food near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "F232",
+    "query": "vegetarian restaurants near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "F233",
+    "query": "restaurants near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "F234",
+    "query": "food near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "F235",
+    "query": "vegetarian restaurants near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "F236",
+    "query": "restaurants near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "F237",
+    "query": "food near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "F238",
+    "query": "vegetarian restaurants near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "F239",
+    "query": "restaurants near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "F240",
+    "query": "food near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "F241",
+    "query": "vegetarian restaurants near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "F242",
+    "query": "restaurants near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "F243",
+    "query": "food near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "F244",
+    "query": "vegetarian restaurants near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "F245",
+    "query": "restaurants near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "F246",
+    "query": "food near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "F247",
+    "query": "vegetarian restaurants near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "F248",
+    "query": "restaurants near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "F249",
+    "query": "food near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "F250",
+    "query": "vegetarian restaurants near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "F251",
+    "query": "restaurants near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0023"
+    }
+  },
+  {
+    "id": "F252",
+    "query": "food near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0023"
+    }
+  },
+  {
+    "id": "F253",
+    "query": "vegetarian restaurants near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "restaurant",
+    "expected": {
+      "source_type": "restaurant",
+      "temple_id": "T0023"
+    }
+  },
+  {
+    "id": "E254",
+    "query": "emergency hospital near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "E255",
+    "query": "emergency medical facilities near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "E256",
+    "query": "hospital near Sri Lakshmi Narasimha Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0001"
+    }
+  },
+  {
+    "id": "E257",
+    "query": "emergency hospital near Sri Sita Ramachandra Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "E258",
+    "query": "emergency medical facilities near Sri Sita Ramachandra Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "E259",
+    "query": "hospital near Sri Sita Ramachandra Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0002"
+    }
+  },
+  {
+    "id": "E260",
+    "query": "emergency hospital near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "E261",
+    "query": "emergency medical facilities near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "E262",
+    "query": "hospital near Sri Raja Rajeshwara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0003"
+    }
+  },
+  {
+    "id": "E263",
+    "query": "emergency hospital near Sri Gnana Saraswathi Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "E264",
+    "query": "emergency medical facilities near Sri Gnana Saraswathi Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "E265",
+    "query": "hospital near Sri Gnana Saraswathi Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0004"
+    }
+  },
+  {
+    "id": "E266",
+    "query": "emergency hospital near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "E267",
+    "query": "emergency medical facilities near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "E268",
+    "query": "hospital near Sri Kondagattu Anjaneya Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0005"
+    }
+  },
+  {
+    "id": "E269",
+    "query": "emergency hospital near Sri Jogulamba Devi Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "E270",
+    "query": "emergency medical facilities near Sri Jogulamba Devi Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "E271",
+    "query": "hospital near Sri Jogulamba Devi Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0006"
+    }
+  },
+  {
+    "id": "E272",
+    "query": "emergency hospital near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "E273",
+    "query": "emergency medical facilities near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "E274",
+    "query": "hospital near Sri Kaleshwara Mukteswara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0007"
+    }
+  },
+  {
+    "id": "E275",
+    "query": "emergency hospital near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "E276",
+    "query": "emergency medical facilities near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "E277",
+    "query": "hospital near Sri Balaji Venkateswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0008"
+    }
+  },
+  {
+    "id": "E278",
+    "query": "emergency hospital near Birla Mandir Hyderabad",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "E279",
+    "query": "emergency medical facilities near Birla Mandir Hyderabad",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "E280",
+    "query": "hospital near Birla Mandir Hyderabad",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0009"
+    }
+  },
+  {
+    "id": "E281",
+    "query": "emergency hospital near Sri Sanghi Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "E282",
+    "query": "emergency medical facilities near Sri Sanghi Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "E283",
+    "query": "hospital near Sri Sanghi Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0010"
+    }
+  },
+  {
+    "id": "E284",
+    "query": "emergency hospital near Sri Ramalingeswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "E285",
+    "query": "emergency medical facilities near Sri Ramalingeswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "E286",
+    "query": "hospital near Sri Ramalingeswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0011"
+    }
+  },
+  {
+    "id": "E287",
+    "query": "emergency hospital near Sri Bhadrakali Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "E288",
+    "query": "emergency medical facilities near Sri Bhadrakali Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "E289",
+    "query": "hospital near Sri Bhadrakali Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0012"
+    }
+  },
+  {
+    "id": "E290",
+    "query": "emergency hospital near Sri Rudreshwara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "E291",
+    "query": "emergency medical facilities near Sri Rudreshwara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "E292",
+    "query": "hospital near Sri Rudreshwara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0013"
+    }
+  },
+  {
+    "id": "E293",
+    "query": "emergency hospital near Ramappa Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "E294",
+    "query": "emergency medical facilities near Ramappa Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "E295",
+    "query": "hospital near Ramappa Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0014"
+    }
+  },
+  {
+    "id": "E296",
+    "query": "emergency hospital near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "E297",
+    "query": "emergency medical facilities near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "E298",
+    "query": "hospital near Sri Mallikarjuna Swamy Temple, Komuravelli",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0015"
+    }
+  },
+  {
+    "id": "E299",
+    "query": "emergency hospital near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "E300",
+    "query": "emergency medical facilities near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "E301",
+    "query": "hospital near Sri Edupayala Vana Durga Bhavani Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0016"
+    }
+  },
+  {
+    "id": "E302",
+    "query": "emergency hospital near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "E303",
+    "query": "emergency medical facilities near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "E304",
+    "query": "hospital near Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0017"
+    }
+  },
+  {
+    "id": "E305",
+    "query": "emergency hospital near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "E306",
+    "query": "emergency medical facilities near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "E307",
+    "query": "hospital near Sri Venkateswara Swamy Temple, Jamalapuram",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0018"
+    }
+  },
+  {
+    "id": "E308",
+    "query": "emergency hospital near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "E309",
+    "query": "emergency medical facilities near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "E310",
+    "query": "hospital near Manyamkonda Lakshmi Venkateswara Swamy Temple",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0019"
+    }
+  },
+  {
+    "id": "E311",
+    "query": "emergency hospital near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "E312",
+    "query": "emergency medical facilities near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "E313",
+    "query": "hospital near Sri Abhaya Anjaneya Swamy Temple, Beechupally",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0020"
+    }
+  },
+  {
+    "id": "E314",
+    "query": "emergency hospital near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "E315",
+    "query": "emergency medical facilities near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "E316",
+    "query": "hospital near Sri Sammakka Saralamma Temple (Medaram)",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0021"
+    }
+  },
+  {
+    "id": "E317",
+    "query": "emergency hospital near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "E318",
+    "query": "emergency medical facilities near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "E319",
+    "query": "hospital near Surendrapuri — Kunda Satyanarayana Kaladhamam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0022"
+    }
+  },
+  {
+    "id": "E320",
+    "query": "emergency hospital near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0023"
+    }
+  },
+  {
+    "id": "E321",
+    "query": "emergency medical facilities near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0023"
+    }
+  },
+  {
+    "id": "E322",
+    "query": "hospital near Swarnagiri Sri Venkateswara Swamy Devasthanam",
+    "domain": "emergency",
+    "expected": {
+      "source_type": "emergency",
+      "temple_id": "T0023"
+    }
+  }
+]
