@@ -1,0 +1,720 @@
+{
+  "configuration": {
+    "dataset": "C:\\Users\\shyam\\Desktop\\TIMEPASS\\multi-agent-pilgrim\\data\\evaluation\\phase4_evaluation_dataset.json",
+    "mode": "section_filtered",
+    "top_k": 5,
+    "model": "openai/gpt-oss-20b"
+  },
+  "summary": {
+    "case_count": 3,
+    "successful_case_count": 3,
+    "error_case_count": 0,
+    "claim_count": 21,
+    "supported_claim_count": 21,
+    "claim_support_rate": 1.0,
+    "citation_count": 8,
+    "valid_citation_count": 8,
+    "citation_validity": 1.0,
+    "average_latency_ms": 6348.799999999999
+  },
+  "results": [
+    {
+      "case_id": null,
+      "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+      "mode": "section_filtered",
+      "expected": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "section": "history"
+      },
+      "evidence": [
+        {
+          "chunk_id": "T0001__history__part_2",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: history\n\nhistory.content: The temple has been an important center of Vaishnavite worship for several centuries and has received patronage from various South Indian dynasties. In recent years, the Government of Telangana undertook an ambitious reconstruction project, transforming the temple into one of India's grandest spiritual landmarks while preserving its original cave shrine and religious traditions.\nhistory.foundation_year: 11th century CE (Chalukya dynasty)\nhistory.founders: Government of Telangana (reconstruction)\nsthala_puranam: According to the Skanda Purana, Sage Yadarishi performed intense penance inside a cave on this hill. Pleased with his devotion, Lord Narasimha manifested in five divine forms — Jwala Narasimha, Gandabherunda Narasimha, Yogananda Narasimha, Ugra Narasimha, and Lakshmi Narasimha — and granted the sage's wish to remain on the hill forever. The hill thus became known as Yadagirigutta (the hill of Sage Yada), now called Yadadri.",
+          "score": 0.2220574915409088,
+          "metadata": {
+            "chunk_id": "T0001__history__part_2",
+            "temple_id": "T0001",
+            "section_parts": 2,
+            "section_part": 2,
+            "category": "Vaishnavite / Narasimha Temple",
+            "entity_id": "T0001",
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "section": "history",
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "temple_type": "Hindu Vaishnavite Temple",
+            "chunk_word_count": 132,
+            "latitude": 17.5886069,
+            "chunk_index": 5,
+            "religion": "Hinduism",
+            "chunk_token_count": 245,
+            "source_type": "temple",
+            "longitude": 78.9412785,
+            "chunking_strategy": "semantic_section"
+          }
+        },
+        {
+          "chunk_id": "T0001__history__part_1",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: history\n\nhistory.section: Origin & Mythology\nhistory.content: The temple's history is rooted in ancient Hindu scriptures, particularly the Skanda Purana. According to legend, Sage Yadarishi, the son of Sage Rishyasringa, performed severe penance inside a cave on this hill. Pleased by his unwavering devotion, Lord Narasimha appeared before him in five divine manifestations and granted his wish to remain on the hill forever for the benefit of future devotees. This divine event gave the hill its name, Yadagirigutta, now popularly known as Yadadri.\nhistory.foundation_year: 11th century CE (Chalukya dynasty)\nhistory.legends: Sage Yadarishi, son of Sage Rishyasringa, performed intense penance in a cave on the hill seeking Lord Narasimha's blessings.\nhistory.legends: Lord Narasimha manifested in five divine forms — Jwala Narasimha, Gandabherunda Narasimha, Yogananda Narasimha, Ugra Narasimha, and Lakshmi Narasimha.\nhistory.legends: Because the Lord appeared before Sage Yada, the hill came to be known as Yadagirigutta (now Yadadri).\nhistory.section: Patronage & Reconstruction",
+          "score": 0.2610434889793396,
+          "metadata": {
+            "temple_id": "T0001",
+            "section_part": 1,
+            "latitude": 17.5886069,
+            "longitude": 78.9412785,
+            "chunk_id": "T0001__history__part_1",
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "source_type": "temple",
+            "chunk_token_count": 299,
+            "chunk_word_count": 149,
+            "chunking_strategy": "semantic_section",
+            "chunk_index": 4,
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "temple_type": "Hindu Vaishnavite Temple",
+            "section": "history",
+            "category": "Vaishnavite / Narasimha Temple",
+            "religion": "Hinduism",
+            "entity_id": "T0001",
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "section_parts": 2
+          }
+        }
+      ],
+      "answer": {
+        "answer": "Sri Lakshmi Narasimha Swamy Temple, located in Yadadri, Telangana, was founded in the 11th century CE during the Chalukya dynasty. According to Skanda Purana, Sage Yadarishi performed penance in a cave on the hill, prompting Lord Narasimha to manifest in five divine forms and grant him the hill, which became known as Yadagirigutta. In recent years, the Government of Telangana reconstructed the temple, preserving its original cave shrine and making it a grand spiritual landmark.",
+        "claims": [
+          {
+            "claim": "The temple was founded in the 11th century CE during the Chalukya dynasty.",
+            "supported_by": [
+              "T0001__history__part_1",
+              "T0001__history__part_2"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Sage Yadarishi performed penance in a cave on the hill, leading to Lord Narasimha's manifestation in five forms, which caused the hill to be named Yadagirigutta.",
+            "supported_by": [
+              "T0001__history__part_1",
+              "T0001__history__part_2"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "The Government of Telangana recently reconstructed the temple, preserving the original cave shrine.",
+            "supported_by": [
+              "T0001__history__part_2"
+            ],
+            "supported": true
+          }
+        ],
+        "evidence": [
+          {
+            "chunk_id": "T0001__history__part_2",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: history\n\nhistory.content: The temple has been an important center of Vaishnavite worship for several centuries and has received patronage from various South Indian dynasties. In recent years, the Government of Telangana undertook an ambitious reconstruction project, transforming the temple into one of India's grandest spiritual landmarks while preserving its original cave shrine and religious traditions.\nhistory.foundation_year: 11th century CE (Chalukya dynasty)\nhistory.founders: Government of Telangana (reconstruction)\nsthala_puranam: According to the Skanda Purana, Sage Yadarishi performed intense penance inside a cave on this hill. Pleased with his devotion, Lord Narasimha manifested in five divine forms — Jwala Narasimha, Gandabherunda Narasimha, Yogananda Narasimha, Ugra Narasimha, and Lakshmi Narasimha — and granted the sage's wish to remain on the hill forever. The hill thus became known as Yadagirigutta (the hill of Sage Yada), now called Yadadri.",
+            "score": 0.2220574915409088,
+            "metadata": {
+              "chunk_id": "T0001__history__part_2",
+              "temple_id": "T0001",
+              "section_parts": 2,
+              "section_part": 2,
+              "category": "Vaishnavite / Narasimha Temple",
+              "entity_id": "T0001",
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "section": "history",
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "temple_type": "Hindu Vaishnavite Temple",
+              "chunk_word_count": 132,
+              "latitude": 17.5886069,
+              "chunk_index": 5,
+              "religion": "Hinduism",
+              "chunk_token_count": 245,
+              "source_type": "temple",
+              "longitude": 78.9412785,
+              "chunking_strategy": "semantic_section"
+            }
+          },
+          {
+            "chunk_id": "T0001__history__part_1",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: history\n\nhistory.section: Origin & Mythology\nhistory.content: The temple's history is rooted in ancient Hindu scriptures, particularly the Skanda Purana. According to legend, Sage Yadarishi, the son of Sage Rishyasringa, performed severe penance inside a cave on this hill. Pleased by his unwavering devotion, Lord Narasimha appeared before him in five divine manifestations and granted his wish to remain on the hill forever for the benefit of future devotees. This divine event gave the hill its name, Yadagirigutta, now popularly known as Yadadri.\nhistory.foundation_year: 11th century CE (Chalukya dynasty)\nhistory.legends: Sage Yadarishi, son of Sage Rishyasringa, performed intense penance in a cave on the hill seeking Lord Narasimha's blessings.\nhistory.legends: Lord Narasimha manifested in five divine forms — Jwala Narasimha, Gandabherunda Narasimha, Yogananda Narasimha, Ugra Narasimha, and Lakshmi Narasimha.\nhistory.legends: Because the Lord appeared before Sage Yada, the hill came to be known as Yadagirigutta (now Yadadri).\nhistory.section: Patronage & Reconstruction",
+            "score": 0.2610434889793396,
+            "metadata": {
+              "temple_id": "T0001",
+              "section_part": 1,
+              "latitude": 17.5886069,
+              "longitude": 78.9412785,
+              "chunk_id": "T0001__history__part_1",
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "source_type": "temple",
+              "chunk_token_count": 299,
+              "chunk_word_count": 149,
+              "chunking_strategy": "semantic_section",
+              "chunk_index": 4,
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "temple_type": "Hindu Vaishnavite Temple",
+              "section": "history",
+              "category": "Vaishnavite / Narasimha Temple",
+              "religion": "Hinduism",
+              "entity_id": "T0001",
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "section_parts": 2
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "claim_count": 3,
+        "supported_claim_count": 3,
+        "citation_count": 2,
+        "valid_citation_count": 2,
+        "citation_validity": 1.0,
+        "latency_ms": 5906.66
+      }
+    },
+    {
+      "case_id": null,
+      "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+      "mode": "section_filtered",
+      "expected": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "section": "worship"
+      },
+      "evidence": [
+        {
+          "chunk_id": "T0001__worship__part_2",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\ntiming_conflict_note: Canonical source is the Telangana Devasthanam timings page (checked 2026-08-21): temple opens 3:30 AM; general Sarva Darshan starts 7:00 AM, not 5:00 AM or 6:00 AM. Older blog summaries that say 5:00 AM–9:00 PM are outdated and must not be used. Timings can change on festival days.\nsevas.name: Sarva Darshan (General Darshan)\nsevas.description: General darshan available free of cost for all devotees during published Sarva Darshan windows.\nsevas.charges: Free\nsevas.name: Seegra Darshan / VIP Break Darshan\nsevas.description: Paid or break darshan slots published by the Devasthanam (including VIP Break Darshan 9:00–10:00 AM and 4:00–5:00 PM on the official board).\nsevas.charges: Paid (confirm current fee on the official site or at the counter)\nsevas.name: Suprabhatam\nsevas.description: Early morning awakening seva. Official board: 3:30–4:00 AM after the temple opens at 3:30 AM.\nsevas.charges: Paid (amount not specified on the timings board)\nsevas.name: Nijabhishekam\nsevas.description: Ritual bathing of the deity. Official board: 5:15–6:15 AM.\nsevas.charges: Paid (amount not specified on the timings board)\nsevas.name: Kalyanotsavam",
+          "score": 0.19055691361427307,
+          "metadata": {
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "category": "Vaishnavite / Narasimha Temple",
+            "section_part": 2,
+            "chunking_strategy": "semantic_section",
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "longitude": 78.9412785,
+            "chunk_index": 10,
+            "section_parts": 6,
+            "section": "worship",
+            "latitude": 17.5886069,
+            "chunk_id": "T0001__worship__part_2",
+            "religion": "Hinduism",
+            "temple_id": "T0001",
+            "entity_id": "T0001",
+            "source_type": "temple",
+            "chunk_token_count": 338,
+            "chunk_word_count": 163,
+            "temple_type": "Hindu Vaishnavite Temple"
+          }
+        },
+        {
+          "chunk_id": "T0001__worship__part_1",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\ndarshan_timings.day: Daily (official Devasthanam schedule)\ndarshan_timings.morning: Temple opens 3:30 AM. Suprabhatam 3:30–4:00 AM; Thiruvaradhana 4:00–4:30 AM; Bala Bogam 4:30–5:15 AM; Nijabhishekam 5:15–6:15 AM; Archana 6:15–7:00 AM. Sarva Darshan 7:00–9:00 AM. VIP Break Darshan 9:00–10:00 AM. Sarva Darshan 10:00–11:45 AM. Nitya Kalyanotsavam 9:45–11:30 AM. Maharaja Bhogam 11:45 AM–12:30 PM. Sarva Darshan 12:30–3:00 PM.\ndarshan_timings.evening: Dwarabandhanamu (doors closed) 3:00–4:00 PM. VIP Break Darshan 4:00–5:00 PM. Sarva Darshan 5:00–7:00 PM. Thiruvaradhana 7:00–7:30 PM; Archana 7:30–8:15 PM. Sarva Darshan 8:15–9:00 PM. Temple closes after night sevas, typically by 9:45 PM.\ndarshan_timings.day: Festival / peak days\ndarshan_timings.morning: Same official sequence unless the Devasthanam announces a special schedule. Crowds are heavier; arrive early.\ndarshan_timings.evening: Confirm the same-day board or https://yadagiriguttatemple.telangana.gov.in/timings/ before travelling.",
+          "score": 0.19263729453086853,
+          "metadata": {
+            "latitude": 17.5886069,
+            "religion": "Hinduism",
+            "temple_type": "Hindu Vaishnavite Temple",
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "chunking_strategy": "semantic_section",
+            "section_parts": 6,
+            "chunk_index": 9,
+            "chunk_word_count": 116,
+            "chunk_token_count": 331,
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "temple_id": "T0001",
+            "chunk_id": "T0001__worship__part_1",
+            "source_type": "temple",
+            "section": "worship",
+            "longitude": 78.9412785,
+            "entity_id": "T0001",
+            "category": "Vaishnavite / Narasimha Temple",
+            "section_part": 1
+          }
+        },
+        {
+          "chunk_id": "T0001__worship__part_5",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\nfestivals.festival: Karthika Masam\nfestivals.description: Auspicious month observed with special poojas and devotional programs.\nfestivals.festival: Mukkoti Ekadashi\nfestivals.description: An important Ekadashi festival with special poojas and decorations.\nfestivals.festival: Sri Rama Navami\nfestivals.description: Celebrated with devotion as part of the temple's festival calendar.\nfestivals.festival: Hanuman Jayanthi\nfestivals.description: Celebrated with devotion as part of the temple's festival calendar.\nfestivals.festival: Ugadi\nfestivals.description: Telugu New Year celebrated at the temple.\nfestivals.festival: Deepavali\nfestivals.description: Festival of lights celebrated with illumination and special poojas.\ndarshan_and_tickets.general_darshan: Sarva Darshan is free during the official Sarva Darshan windows: 7:00–9:00 AM, 10:00–11:45 AM, 12:30–3:00 PM, 5:00–7:00 PM, and 8:15–9:00 PM.\ndarshan_and_tickets.special_darshan: VIP Break Darshan is listed 9:00–10:00 AM and 4:00–5:00 PM. Seegra / paid sevas may also be available; confirm fees at the counter or official site.",
+          "score": 0.19497422873973846,
+          "metadata": {
+            "latitude": 17.5886069,
+            "chunk_index": 13,
+            "entity_id": "T0001",
+            "chunk_id": "T0001__worship__part_5",
+            "section": "worship",
+            "section_parts": 6,
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "chunk_token_count": 290,
+            "chunk_word_count": 126,
+            "category": "Vaishnavite / Narasimha Temple",
+            "temple_type": "Hindu Vaishnavite Temple",
+            "section_part": 5,
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "chunking_strategy": "semantic_section",
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "source_type": "temple",
+            "longitude": 78.9412785,
+            "temple_id": "T0001",
+            "religion": "Hinduism"
+          }
+        },
+        {
+          "chunk_id": "T0001__worship__part_6",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\ndarshan_and_tickets.ticket_details: Tickets for sevas can be booked through the Devasthanam portals or at temple counters. During major festivals, extra queues and online booking may apply. Always reconfirm on https://yadagiriguttatemple.telangana.gov.in/timings/",
+          "score": 0.22406257688999176,
+          "metadata": {
+            "category": "Vaishnavite / Narasimha Temple",
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "chunk_token_count": 74,
+            "chunk_index": 14,
+            "section_part": 6,
+            "chunk_word_count": 29,
+            "religion": "Hinduism",
+            "source_type": "temple",
+            "temple_id": "T0001",
+            "section_parts": 6,
+            "chunking_strategy": "semantic_section",
+            "temple_type": "Hindu Vaishnavite Temple",
+            "chunk_id": "T0001__worship__part_6",
+            "section": "worship",
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "entity_id": "T0001",
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "longitude": 78.9412785,
+            "latitude": 17.5886069
+          }
+        },
+        {
+          "chunk_id": "T0001__worship__part_4",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\nrituals: Nijabhishekam\nrituals: Archana\nrituals: Sarva Darshan\nrituals: Nitya Kalyanotsavam\nrituals: Maharaja Bhogam\nrituals: Dwarabandhanamu\nrituals: VIP Break Darshan\nrituals: Darbar Seva\nrituals: Ekanta / night sevas and close\nspecial_poojas: Kalyanotsavam\nspecial_poojas: Sudarshana Homam\nspecial_poojas: Laksha Tulasi Archana\nspecial_poojas: Suvarna Pushparchana\nspecial_poojas: Andalamma Unjal Seva (listed Fridays on the official board)\nspecial_poojas: Elaborate homams and special alankarams during Brahmotsavam, Narasimha Jayanthi, and Vaikuntha Ekadashi\nspecial_poojas: Grand religious processions during festivals\nfestivals.festival: Brahmotsavam\nfestivals.description: The grandest annual festival, attracting lakhs of devotees from across India with elaborate homams, special alankarams, and grand processions.\nfestivals.festival: Narasimha Jayanthi\nfestivals.description: Commemorates the appearance of Lord Narasimha; celebrated with special Abhishekams, Homams, Kalyanotsavam, and magnificent processions.\nfestivals.festival: Vaikuntha Ekadashi\nfestivals.description: Major festival with elaborate rituals, Vedic chanting, and large gatherings of devotees.",
+          "score": 0.25963887572288513,
+          "metadata": {
+            "longitude": 78.9412785,
+            "chunk_word_count": 127,
+            "religion": "Hinduism",
+            "category": "Vaishnavite / Narasimha Temple",
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "temple_type": "Hindu Vaishnavite Temple",
+            "latitude": 17.5886069,
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "chunk_token_count": 327,
+            "chunk_id": "T0001__worship__part_4",
+            "section_part": 4,
+            "section": "worship",
+            "temple_id": "T0001",
+            "section_parts": 6,
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "entity_id": "T0001",
+            "source_type": "temple",
+            "chunking_strategy": "semantic_section",
+            "chunk_index": 12
+          }
+        }
+      ],
+      "answer": {
+        "answer": "The Sri Lakshmi Narasimha Swamy Temple opens at 3:30 AM.  General Darshan (Sarva Darshan) is free and scheduled at 7:00–9:00 AM, 10:00–11:45 AM, 12:30–3:00 PM, 5:00–7:00 PM and 8:15–9:00 PM.  VIP Break Darshan (paid) runs 9:00–10:00 AM and 4:00–5:00 PM.  Early‑morning Sevas include Suprabhatam 3:30–4:00 AM, Thiruvaradhana 4:00–4:30 AM, Bala Bogam 4:30–5:15 AM, Nijabhishekam 5:15–6:15 AM and Archana 6:15–7:00 AM.  Midday sevas: Nitya Kalyanotsavam 9:45–11:30 AM, Maharaja Bhogam 11:45 AM–12:30 PM.  Evening sevas: Dwarabandhanamu (doors closed) 3:00–4:00 PM, VIP Break Darshan 4:00–5:00 PM, Sarva Darshan 5:00–7:00 PM, Thiruvaradhana 7:00–7:30 PM, Archana 7:30–8:15 PM and Sarva Darshan 8:15–9:00 PM.  The temple closes after night sevas, usually by 9:45 PM.  Tickets for paid sevas can be booked online or at the temple counter; major festivals may have additional queues or online booking.  The same schedule applies on festival/peak days unless a special board announces changes.",
+        "claims": [
+          {
+            "claim": "The temple opens at 3:30 AM.",
+            "supported_by": [
+              "T0001__worship__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "General Sarva Darshan windows are 7:00–9:00 AM, 10:00–11:45 AM, 12:30–3:00 PM, 5:00–7:00 PM and 8:15–9:00 PM.",
+            "supported_by": [
+              "T0001__worship__part_5"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "VIP Break Darshan runs 9:00–10:00 AM and 4:00–5:00 PM.",
+            "supported_by": [
+              "T0001__worship__part_5"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Suprabhatam is scheduled 3:30–4:00 AM.",
+            "supported_by": [
+              "T0001__worship__part_2"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Nijabhishekam is scheduled 5:15–6:15 AM.",
+            "supported_by": [
+              "T0001__worship__part_2"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Nitya Kalyanotsavam is scheduled 9:45–11:30 AM.",
+            "supported_by": [
+              "T0001__worship__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Maharaja Bhogam is scheduled 11:45 AM–12:30 PM.",
+            "supported_by": [
+              "T0001__worship__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Dwarabandhanamu (doors closed) is scheduled 3:00–4:00 PM.",
+            "supported_by": [
+              "T0001__worship__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "The temple typically closes after night sevas by 9:45 PM.",
+            "supported_by": [
+              "T0001__worship__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Tickets for paid sevas can be booked online or at the temple counter.",
+            "supported_by": [
+              "T0001__worship__part_6"
+            ],
+            "supported": true
+          }
+        ],
+        "evidence": [
+          {
+            "chunk_id": "T0001__worship__part_2",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\ntiming_conflict_note: Canonical source is the Telangana Devasthanam timings page (checked 2026-08-21): temple opens 3:30 AM; general Sarva Darshan starts 7:00 AM, not 5:00 AM or 6:00 AM. Older blog summaries that say 5:00 AM–9:00 PM are outdated and must not be used. Timings can change on festival days.\nsevas.name: Sarva Darshan (General Darshan)\nsevas.description: General darshan available free of cost for all devotees during published Sarva Darshan windows.\nsevas.charges: Free\nsevas.name: Seegra Darshan / VIP Break Darshan\nsevas.description: Paid or break darshan slots published by the Devasthanam (including VIP Break Darshan 9:00–10:00 AM and 4:00–5:00 PM on the official board).\nsevas.charges: Paid (confirm current fee on the official site or at the counter)\nsevas.name: Suprabhatam\nsevas.description: Early morning awakening seva. Official board: 3:30–4:00 AM after the temple opens at 3:30 AM.\nsevas.charges: Paid (amount not specified on the timings board)\nsevas.name: Nijabhishekam\nsevas.description: Ritual bathing of the deity. Official board: 5:15–6:15 AM.\nsevas.charges: Paid (amount not specified on the timings board)\nsevas.name: Kalyanotsavam",
+            "score": 0.19055691361427307,
+            "metadata": {
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "category": "Vaishnavite / Narasimha Temple",
+              "section_part": 2,
+              "chunking_strategy": "semantic_section",
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "longitude": 78.9412785,
+              "chunk_index": 10,
+              "section_parts": 6,
+              "section": "worship",
+              "latitude": 17.5886069,
+              "chunk_id": "T0001__worship__part_2",
+              "religion": "Hinduism",
+              "temple_id": "T0001",
+              "entity_id": "T0001",
+              "source_type": "temple",
+              "chunk_token_count": 338,
+              "chunk_word_count": 163,
+              "temple_type": "Hindu Vaishnavite Temple"
+            }
+          },
+          {
+            "chunk_id": "T0001__worship__part_1",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\ndarshan_timings.day: Daily (official Devasthanam schedule)\ndarshan_timings.morning: Temple opens 3:30 AM. Suprabhatam 3:30–4:00 AM; Thiruvaradhana 4:00–4:30 AM; Bala Bogam 4:30–5:15 AM; Nijabhishekam 5:15–6:15 AM; Archana 6:15–7:00 AM. Sarva Darshan 7:00–9:00 AM. VIP Break Darshan 9:00–10:00 AM. Sarva Darshan 10:00–11:45 AM. Nitya Kalyanotsavam 9:45–11:30 AM. Maharaja Bhogam 11:45 AM–12:30 PM. Sarva Darshan 12:30–3:00 PM.\ndarshan_timings.evening: Dwarabandhanamu (doors closed) 3:00–4:00 PM. VIP Break Darshan 4:00–5:00 PM. Sarva Darshan 5:00–7:00 PM. Thiruvaradhana 7:00–7:30 PM; Archana 7:30–8:15 PM. Sarva Darshan 8:15–9:00 PM. Temple closes after night sevas, typically by 9:45 PM.\ndarshan_timings.day: Festival / peak days\ndarshan_timings.morning: Same official sequence unless the Devasthanam announces a special schedule. Crowds are heavier; arrive early.\ndarshan_timings.evening: Confirm the same-day board or https://yadagiriguttatemple.telangana.gov.in/timings/ before travelling.",
+            "score": 0.19263729453086853,
+            "metadata": {
+              "latitude": 17.5886069,
+              "religion": "Hinduism",
+              "temple_type": "Hindu Vaishnavite Temple",
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "chunking_strategy": "semantic_section",
+              "section_parts": 6,
+              "chunk_index": 9,
+              "chunk_word_count": 116,
+              "chunk_token_count": 331,
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "temple_id": "T0001",
+              "chunk_id": "T0001__worship__part_1",
+              "source_type": "temple",
+              "section": "worship",
+              "longitude": 78.9412785,
+              "entity_id": "T0001",
+              "category": "Vaishnavite / Narasimha Temple",
+              "section_part": 1
+            }
+          },
+          {
+            "chunk_id": "T0001__worship__part_5",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\nfestivals.festival: Karthika Masam\nfestivals.description: Auspicious month observed with special poojas and devotional programs.\nfestivals.festival: Mukkoti Ekadashi\nfestivals.description: An important Ekadashi festival with special poojas and decorations.\nfestivals.festival: Sri Rama Navami\nfestivals.description: Celebrated with devotion as part of the temple's festival calendar.\nfestivals.festival: Hanuman Jayanthi\nfestivals.description: Celebrated with devotion as part of the temple's festival calendar.\nfestivals.festival: Ugadi\nfestivals.description: Telugu New Year celebrated at the temple.\nfestivals.festival: Deepavali\nfestivals.description: Festival of lights celebrated with illumination and special poojas.\ndarshan_and_tickets.general_darshan: Sarva Darshan is free during the official Sarva Darshan windows: 7:00–9:00 AM, 10:00–11:45 AM, 12:30–3:00 PM, 5:00–7:00 PM, and 8:15–9:00 PM.\ndarshan_and_tickets.special_darshan: VIP Break Darshan is listed 9:00–10:00 AM and 4:00–5:00 PM. Seegra / paid sevas may also be available; confirm fees at the counter or official site.",
+            "score": 0.19497422873973846,
+            "metadata": {
+              "latitude": 17.5886069,
+              "chunk_index": 13,
+              "entity_id": "T0001",
+              "chunk_id": "T0001__worship__part_5",
+              "section": "worship",
+              "section_parts": 6,
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "chunk_token_count": 290,
+              "chunk_word_count": 126,
+              "category": "Vaishnavite / Narasimha Temple",
+              "temple_type": "Hindu Vaishnavite Temple",
+              "section_part": 5,
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "chunking_strategy": "semantic_section",
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "source_type": "temple",
+              "longitude": 78.9412785,
+              "temple_id": "T0001",
+              "religion": "Hinduism"
+            }
+          },
+          {
+            "chunk_id": "T0001__worship__part_6",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\ndarshan_and_tickets.ticket_details: Tickets for sevas can be booked through the Devasthanam portals or at temple counters. During major festivals, extra queues and online booking may apply. Always reconfirm on https://yadagiriguttatemple.telangana.gov.in/timings/",
+            "score": 0.22406257688999176,
+            "metadata": {
+              "category": "Vaishnavite / Narasimha Temple",
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "chunk_token_count": 74,
+              "chunk_index": 14,
+              "section_part": 6,
+              "chunk_word_count": 29,
+              "religion": "Hinduism",
+              "source_type": "temple",
+              "temple_id": "T0001",
+              "section_parts": 6,
+              "chunking_strategy": "semantic_section",
+              "temple_type": "Hindu Vaishnavite Temple",
+              "chunk_id": "T0001__worship__part_6",
+              "section": "worship",
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "entity_id": "T0001",
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "longitude": 78.9412785,
+              "latitude": 17.5886069
+            }
+          },
+          {
+            "chunk_id": "T0001__worship__part_4",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: worship\n\nrituals: Nijabhishekam\nrituals: Archana\nrituals: Sarva Darshan\nrituals: Nitya Kalyanotsavam\nrituals: Maharaja Bhogam\nrituals: Dwarabandhanamu\nrituals: VIP Break Darshan\nrituals: Darbar Seva\nrituals: Ekanta / night sevas and close\nspecial_poojas: Kalyanotsavam\nspecial_poojas: Sudarshana Homam\nspecial_poojas: Laksha Tulasi Archana\nspecial_poojas: Suvarna Pushparchana\nspecial_poojas: Andalamma Unjal Seva (listed Fridays on the official board)\nspecial_poojas: Elaborate homams and special alankarams during Brahmotsavam, Narasimha Jayanthi, and Vaikuntha Ekadashi\nspecial_poojas: Grand religious processions during festivals\nfestivals.festival: Brahmotsavam\nfestivals.description: The grandest annual festival, attracting lakhs of devotees from across India with elaborate homams, special alankarams, and grand processions.\nfestivals.festival: Narasimha Jayanthi\nfestivals.description: Commemorates the appearance of Lord Narasimha; celebrated with special Abhishekams, Homams, Kalyanotsavam, and magnificent processions.\nfestivals.festival: Vaikuntha Ekadashi\nfestivals.description: Major festival with elaborate rituals, Vedic chanting, and large gatherings of devotees.",
+            "score": 0.25963887572288513,
+            "metadata": {
+              "longitude": 78.9412785,
+              "chunk_word_count": 127,
+              "religion": "Hinduism",
+              "category": "Vaishnavite / Narasimha Temple",
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "temple_type": "Hindu Vaishnavite Temple",
+              "latitude": 17.5886069,
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "chunk_token_count": 327,
+              "chunk_id": "T0001__worship__part_4",
+              "section_part": 4,
+              "section": "worship",
+              "temple_id": "T0001",
+              "section_parts": 6,
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "entity_id": "T0001",
+              "source_type": "temple",
+              "chunking_strategy": "semantic_section",
+              "chunk_index": 12
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "claim_count": 10,
+        "supported_claim_count": 10,
+        "citation_count": 4,
+        "valid_citation_count": 4,
+        "citation_validity": 1.0,
+        "latency_ms": 3654.1
+      }
+    },
+    {
+      "case_id": null,
+      "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+      "mode": "section_filtered",
+      "expected": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "section": "significance"
+      },
+      "evidence": [
+        {
+          "chunk_id": "T0001__significance__part_2",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: significance\n\nmiracles_and_devotee_experiences: Devotees believe sincere prayers help overcome difficulties, remove fear, and grant relief from health problems, financial hardships, delays in marriage, and family disputes.\nmiracles_and_devotee_experiences: Many pilgrims perform Kalyanotsavam, Sudarshana Homam, and Laksha Tulasi Archana after the fulfillment of their wishes.\nmiracles_and_devotee_experiences: Devotees describe a profound sense of peace and spiritual fulfillment after visiting the sacred cave shrine.",
+          "score": 0.21684804558753967,
+          "metadata": {
+            "longitude": 78.9412785,
+            "chunk_word_count": 58,
+            "chunk_id": "T0001__significance__part_2",
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "entity_id": "T0001",
+            "latitude": 17.5886069,
+            "temple_id": "T0001",
+            "section_part": 2,
+            "category": "Vaishnavite / Narasimha Temple",
+            "section_parts": 2,
+            "religion": "Hinduism",
+            "section": "significance",
+            "chunking_strategy": "semantic_section",
+            "source_type": "temple",
+            "chunk_index": 7,
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "chunk_token_count": 135,
+            "temple_type": "Hindu Vaishnavite Temple"
+          }
+        },
+        {
+          "chunk_id": "T0001__significance__part_1",
+          "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: significance\n\nreligious_significance: Yadadri is one of the most sacred Narasimha Kshetrams in India and is revered as one of the holiest Pancha Narasimha Kshetrams. It is a powerful center of Vaishnavite worship where Lord Narasimha is worshipped in five divine forms, each representing a unique aspect of divine protection, compassion, and spiritual power.\nspiritual_significance: Devotees believe that worshipping the five manifestations of Lord Narasimha at Yadadri removes fear, protects against negative influences, and brings peace, prosperity, and spiritual fulfillment. The original cave shrine, where Lord Narasimha is believed to have revealed Himself to Sage Yadarishi, is considered especially sacred. Pilgrims visit to seek blessings for health, marriage, education, career growth, business success, and family well-being.\nhealing_beliefs: Removes fear and protects against negative influences\nhealing_beliefs: Relief from health problems\nhealing_beliefs: Relief from financial hardships\nhealing_beliefs: Help with delays in marriage and family disputes\nhealing_beliefs: Blessings for education, career growth, and business success\nmiracles_and_devotee_experiences: Lord Narasimha appeared before Sage Yadarishi in response to his intense penance.",
+          "score": 0.22294305264949799,
+          "metadata": {
+            "chunk_index": 6,
+            "section_part": 1,
+            "chunk_word_count": 163,
+            "temple_id": "T0001",
+            "name": "Sri Lakshmi Narasimha Swamy Temple",
+            "temple_type": "Hindu Vaishnavite Temple",
+            "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+            "entity_id": "T0001",
+            "latitude": 17.5886069,
+            "longitude": 78.9412785,
+            "religion": "Hinduism",
+            "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+            "chunk_token_count": 322,
+            "section": "significance",
+            "source_type": "temple",
+            "chunking_strategy": "semantic_section",
+            "section_parts": 2,
+            "chunk_id": "T0001__significance__part_1",
+            "category": "Vaishnavite / Narasimha Temple"
+          }
+        }
+      ],
+      "answer": {
+        "answer": "The Sri Lakshmi Narasimha Swamy Temple in Yadadri is one of India’s most revered Narasimha Kshetrams, considered a holiest of the Pancha Narasimha sites. It is a major Vaishnavite center where devotees worship the five manifestations of Lord Narasimha, believed to ward off fear, protect against negative influences, and bestow peace, prosperity, and spiritual fulfillment. Pilgrims seek blessings for health, marriage, education, career, business, and family well‑being, and the cave shrine where Lord Narasimha first appeared to Sage Yadarishi is especially sacred. Many devotees report that sincere prayers here relieve health problems, financial hardships, delays in marriage, and family disputes; they also experience profound peace and spiritual fulfillment, and perform rituals such as Kalyanotsavam, Sudarshana Homam, and Laksha Tulasi Archana after wishes are fulfilled.",
+        "claims": [
+          {
+            "claim": "The temple is one of the most sacred Narasimha Kshetrams in India and revered as one of the holiest Pancha Narasimha Kshetrams.",
+            "supported_by": [
+              "T0001__significance__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "It is a powerful center of Vaishnavite worship where Lord Narasimha is worshipped in five divine forms, each representing a unique aspect of divine protection, compassion, and spiritual power.",
+            "supported_by": [
+              "T0001__significance__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Worshipping the five manifestations at Yadadri removes fear, protects against negative influences, and brings peace, prosperity, and spiritual fulfillment.",
+            "supported_by": [
+              "T0001__significance__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "The original cave shrine where Lord Narasimha is believed to have revealed Himself to Sage Yadarishi is considered especially sacred.",
+            "supported_by": [
+              "T0001__significance__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Pilgrims visit to seek blessings for health, marriage, education, career growth, business success, and family well‑being.",
+            "supported_by": [
+              "T0001__significance__part_1"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Devotees believe sincere prayers at the temple help overcome difficulties, remove fear, and grant relief from health problems, financial hardships, delays in marriage, and family disputes.",
+            "supported_by": [
+              "T0001__significance__part_2"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Many pilgrims perform Kalyanotsavam, Sudarshana Homam, and Laksha Tulasi Archana after the fulfillment of their wishes.",
+            "supported_by": [
+              "T0001__significance__part_2"
+            ],
+            "supported": true
+          },
+          {
+            "claim": "Devotees describe a profound sense of peace and spiritual fulfillment after visiting the sacred cave shrine.",
+            "supported_by": [
+              "T0001__significance__part_2"
+            ],
+            "supported": true
+          }
+        ],
+        "evidence": [
+          {
+            "chunk_id": "T0001__significance__part_2",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: significance\n\nmiracles_and_devotee_experiences: Devotees believe sincere prayers help overcome difficulties, remove fear, and grant relief from health problems, financial hardships, delays in marriage, and family disputes.\nmiracles_and_devotee_experiences: Many pilgrims perform Kalyanotsavam, Sudarshana Homam, and Laksha Tulasi Archana after the fulfillment of their wishes.\nmiracles_and_devotee_experiences: Devotees describe a profound sense of peace and spiritual fulfillment after visiting the sacred cave shrine.",
+            "score": 0.21684804558753967,
+            "metadata": {
+              "longitude": 78.9412785,
+              "chunk_word_count": 58,
+              "chunk_id": "T0001__significance__part_2",
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "entity_id": "T0001",
+              "latitude": 17.5886069,
+              "temple_id": "T0001",
+              "section_part": 2,
+              "category": "Vaishnavite / Narasimha Temple",
+              "section_parts": 2,
+              "religion": "Hinduism",
+              "section": "significance",
+              "chunking_strategy": "semantic_section",
+              "source_type": "temple",
+              "chunk_index": 7,
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "chunk_token_count": 135,
+              "temple_type": "Hindu Vaishnavite Temple"
+            }
+          },
+          {
+            "chunk_id": "T0001__significance__part_1",
+            "content": "Temple: Sri Lakshmi Narasimha Swamy Temple\nTemple ID: T0001\nSection: significance\n\nreligious_significance: Yadadri is one of the most sacred Narasimha Kshetrams in India and is revered as one of the holiest Pancha Narasimha Kshetrams. It is a powerful center of Vaishnavite worship where Lord Narasimha is worshipped in five divine forms, each representing a unique aspect of divine protection, compassion, and spiritual power.\nspiritual_significance: Devotees believe that worshipping the five manifestations of Lord Narasimha at Yadadri removes fear, protects against negative influences, and brings peace, prosperity, and spiritual fulfillment. The original cave shrine, where Lord Narasimha is believed to have revealed Himself to Sage Yadarishi, is considered especially sacred. Pilgrims visit to seek blessings for health, marriage, education, career growth, business success, and family well-being.\nhealing_beliefs: Removes fear and protects against negative influences\nhealing_beliefs: Relief from health problems\nhealing_beliefs: Relief from financial hardships\nhealing_beliefs: Help with delays in marriage and family disputes\nhealing_beliefs: Blessings for education, career growth, and business success\nmiracles_and_devotee_experiences: Lord Narasimha appeared before Sage Yadarishi in response to his intense penance.",
+            "score": 0.22294305264949799,
+            "metadata": {
+              "chunk_index": 6,
+              "section_part": 1,
+              "chunk_word_count": 163,
+              "temple_id": "T0001",
+              "name": "Sri Lakshmi Narasimha Swamy Temple",
+              "temple_type": "Hindu Vaishnavite Temple",
+              "deity": "Lord Lakshmi Narasimha Swamy (fourth incarnation of Lord Vishnu)",
+              "entity_id": "T0001",
+              "latitude": 17.5886069,
+              "longitude": 78.9412785,
+              "religion": "Hinduism",
+              "location": "Sri Lakshmi Narasimha Swamy Devasthanam, Yadadri (Yadagirigutta), Yadadri Bhuvanagiri District, Telangana – 508115",
+              "chunk_token_count": 322,
+              "section": "significance",
+              "source_type": "temple",
+              "chunking_strategy": "semantic_section",
+              "section_parts": 2,
+              "chunk_id": "T0001__significance__part_1",
+              "category": "Vaishnavite / Narasimha Temple"
+            }
+          }
+        ]
+      },
+      "metrics": {
+        "claim_count": 8,
+        "supported_claim_count": 8,
+        "citation_count": 2,
+        "valid_citation_count": 2,
+        "citation_validity": 1.0,
+        "latency_ms": 9485.64
+      }
+    }
+  ]
+}
