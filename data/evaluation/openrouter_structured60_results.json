@@ -1,0 +1,1003 @@
+{
+  "configuration": {
+    "cache_version": "llm-routed-retrieval-v3",
+    "cases": 60,
+    "model": "openrouter/free",
+    "provider": "openrouter",
+    "sample_ids": [
+      "T001",
+      "T002",
+      "T003",
+      "T004",
+      "T005",
+      "T006",
+      "T007",
+      "T008",
+      "T009",
+      "T010",
+      "T011",
+      "T012",
+      "T013",
+      "T014",
+      "T015",
+      "T016",
+      "T017",
+      "T018",
+      "T019",
+      "T020",
+      "A116",
+      "A117",
+      "A118",
+      "A119",
+      "A120",
+      "A121",
+      "A122",
+      "A123",
+      "A124",
+      "A125",
+      "F185",
+      "F186",
+      "F187",
+      "F188",
+      "F189",
+      "F190",
+      "F191",
+      "F192",
+      "F193",
+      "F194",
+      "E254",
+      "E255",
+      "E256",
+      "E257",
+      "E258",
+      "E259",
+      "E260",
+      "E261",
+      "E262",
+      "E263",
+      "T021",
+      "T022",
+      "T023",
+      "T024",
+      "T025",
+      "T026",
+      "T027",
+      "T028",
+      "T029",
+      "T030"
+    ]
+  },
+  "routing": {
+    "cases": 60,
+    "valid_route_rate": 0.6333333333333333,
+    "validated_query_rate": 0.2833333333333333,
+    "domain_accuracy": 0.2833333333333333,
+    "entity_accuracy": 0.2833333333333333,
+    "section_accuracy": 0.05,
+    "valid_prediction_metrics": {
+      "cases": 17,
+      "domain_accuracy": 1.0,
+      "entity_accuracy": 1.0,
+      "section_accuracy": 0.17647058823529413
+    },
+    "errors": 43
+  },
+  "queries": {
+    "T001": {
+      "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for historical information about a specific temple, which is a factual knowledge request.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "history of Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T002": {
+      "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for specific factual information (darshan timings and worship details) about a particular temple, which fits a knowledge query.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "darshan timings"
+      },
+      "error": null
+    },
+    "T003": {
+      "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "The user is requesting factual information about the religious significance of a specific temple, which falls under a knowledge query.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "religious significance"
+      },
+      "error": null
+    },
+    "T004": {
+      "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for specific architectural information about a named temple (Sri Lakshmi Narasimha Swamy Temple), which is a factual knowledge query requiring retrieval from a knowledge base.",
+        "requires_retrieval": true,
+        "payload": {
+          "temple_name": "Sri Lakshmi Narasimha Swamy Temple",
+          "topic": "architecture"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T005": {
+      "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "User is asking for travel instructions to a specific temple.",
+        "requires_retrieval": true,
+        "payload": {
+          "destination": "Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T006": {
+      "query": "history of Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for historical information about a specific temple.",
+        "requires_retrieval": true,
+        "payload": {
+          "entity": "Sri Sita Ramachandra Swamy Temple",
+          "query": "history of Sri Sita Ramachandra Swamy Temple",
+          "topic": "history"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T007": {
+      "query": "darshan timings and worship information at Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.98,
+        "reason": "The user is requesting specific darshan timings and worship information for Sri Sita Ramachandra Swamy Temple, which requires retrieving factual knowledge about the temple's schedule and practices.",
+        "requires_retrieval": true,
+        "payload": {
+          "temple_name": "Sri Sita Ramachandra Swamy Temple",
+          "requested_info": [
+            "Darshan timings",
+            "Worship information"
+          ],
+          "context": "Pilgrimage assistance request for temple visit planning"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T008": {
+      "query": "religious significance of Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for the religious significance of a specific temple, which is a factual information request.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "religious significance of Sri Sita Ramachandra Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: Expecting value: line 1 column 1 (char 0)"
+    },
+    "T009": {
+      "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "The user is requesting specific architectural information about a particular temple (Sri Sita Ramachandra Swamy Temple). This is a factual inquiry about a known religious structure's design features, which falls under knowledge retrieval rather than trip planning, general chat, or requiring clarification.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+          "topic": "Temple architecture",
+          "specific_temple": "Sri Sita Ramachandra Swamy Temple",
+          "intent": "Seeking detailed structural and design information about the temple's architecture"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T010": {
+      "query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "The user is asking for travel logistics and directions to a specific temple, which directly maps to trip planning intent.",
+        "requires_retrieval": true,
+        "payload": {
+          "original_query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+          "intent": "trip_planning"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: Expecting value: line 1 column 1 (char 0)"
+    },
+    "T011": {
+      "query": "history of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 1.0,
+        "reason": "The user is requesting historical information about a specific temple, which is a knowledge-based inquiry.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T012": {
+      "query": "darshan timings and worship information at Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "The user requests specific factual information about darshan timings and worship details for a temple, which requires retrieval of known data.",
+        "requires_retrieval": true,
+        "payload": {
+          "temple": "Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T013": {
+      "query": "religious significance of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for the religious significance of a specific temple, which is a factual information request.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "religious significance of Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": "religious significance"
+      },
+      "error": null
+    },
+    "T014": {
+      "query": "architecture of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.96,
+        "reason": "User requests specific factual information about the architecture of a temple, which is a knowledge query.",
+        "requires_retrieval": true,
+        "payload": {
+          "subject": "architecture of Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": "architectural"
+      },
+      "error": null
+    },
+    "T015": {
+      "query": "how to travel to Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.96,
+        "reason": "The user is explicitly asking for travel instructions to a specific pilgrimage site, which directly aligns with trip planning intent in a pilgrimage assistant context.",
+        "requires_retrieval": true,
+        "payload": {
+          "destination": "Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown temple_id: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "T016": {
+      "query": "history of Sri Gnana Saraswathi Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "The user is requesting historical information about 'Sri Gnana Saraswathi Devasthanam', which is a specific religious institution. This requires factual knowledge about its history that goes beyond general conversation and needs retrieval from specialized knowledge sources.",
+        "requires_retrieval": true,
+        "payload": {
+          "entity": "Sri Gnana Saraswathi Devasthanam",
+          "query_type": "historical background",
+          "context": "pilgrimage assistant"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T017": {
+      "query": "darshan timings and worship information at Sri Gnana Saraswathi Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting specific factual information about darshan timings and worship details at a named temple, which requires retrieval from a knowledge base.",
+        "requires_retrieval": true,
+        "payload": {
+          "temple_name": "Sri Gnana Saraswathi Devasthanam",
+          "query_type": "darshan_timings_and_worship_info"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T018": {
+      "query": "religious significance of Sri Gnana Saraswathi Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "The user is asking about the religious significance of a specific temple (Sri Gnana Saraswathi Devasthanam), which is a factual inquiry about religious and cultural information rather than trip planning, follow-up, or clarification.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "religious significance of Sri Gnana Saraswathi Devasthanam",
+          "topic": "Sri Gnana Saraswathi Devastahanam religious importance",
+          "context": "User wants to understand the spiritual and religious meaning associated with this temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T019": {
+      "query": "architecture of Sri Gnana Saraswathi Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.96,
+        "reason": "The user asks for specific information about the architecture of a temple, which is a factual knowledge query.",
+        "requires_retrieval": true,
+        "payload": {
+          "subject": "Sri Gnana Saraswathi Devasthanam architecture"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T020": {
+      "query": "how to travel to Sri Gnana Saraswathi Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "The user is asking about travel logistics to a specific pilgrimage site, which falls under trip planning assistance.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Gnana Saraswathi Devasthanam"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "A116": {
+      "query": "accommodation near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "The user is asking for accommodation near a specific pilgrimage site (Sri Lakshmi Narasimha Swamy Temple), which directly relates to planning a trip to that location.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "accommodation near Sri Lakshmi Narasimha Swamy Temple",
+          "location": "Sri Lakshmi Narasimha Swamy Temple",
+          "intent": "find_nearby_accommodation"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Lakshmi Narasimha Swamy Temple"
+    },
+    "A117": {
+      "query": "hotels to stay near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "User is requesting hotel recommendations near Sri Lakshmi Narasimha Swamy Temple, which is part of trip planning for a pilgrimage visit.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "hotels near Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Lakshmi Narasimha Swamy Temple"
+    },
+    "A118": {
+      "query": "places to stay near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "The user is asking for places to stay near a specific pilgrimage temple (Sri Lakshmi Narasimha Swamy Temple), which is a core component of trip planning for pilgrims.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Lakshmi Narasimha Swamy Temple",
+          "intent": "find places to stay",
+          "category": "accommodation"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Lakshmi Narasimha Swamy Temple"
+    },
+    "A119": {
+      "query": "accommodation near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.96,
+        "reason": "The user is seeking accommodation near a specific pilgrimage temple, which is a core trip planning request for a pilgrimage assistant.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "accommodation near Sri Sita Ramachandra Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: Expecting value: line 1 column 1 (char 0)"
+    },
+    "A120": {
+      "query": "hotels to stay near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "User is requesting accommodation options near a specific temple for pilgrimage purposes.",
+        "requires_retrieval": true,
+        "payload": {
+          "temple": "Sri Sita Ramachandra Swamy Temple",
+          "request_type": "hotel_accommodation"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Sita Ramachandra Swamy Temple"
+    },
+    "A121": {
+      "query": "places to stay near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "User is seeking accommodation near a specific pilgrimage temple, which directly relates to planning lodging for a pilgrimage journey.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "places to stay near Sri Sita Ramachandra Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Sita Ramachandra Swamy Temple"
+    },
+    "A122": {
+      "query": "accommodation near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "User requests accommodation near a specific pilgrimage site, which is a core trip planning task.",
+        "requires_retrieval": true,
+        "payload": {
+          "action": "find_accommodation",
+          "location": "Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "A123": {
+      "query": "hotels to stay near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "The user is asking for hotel recommendations near a specific pilgrimage site (Sri Raja Rajeshwara Swamy Devasthanam), which directly relates to planning accommodation for a trip.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "hotels near Sri Raja Rajeshwara Swamy Devasthanam",
+          "location": "Sri Raja Rajeshwara Swamy Devastathanam",
+          "intent": "find_accommodation"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "A124": {
+      "query": "places to stay near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "The user is requesting accommodation options near a specific pilgrimage site (Sri Raja Rajeshwara Swamy Devasthanam). This falls under trip planning as it involves finding places to stay as part of a pilgrimage journey.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Raja Rajeshwara Swamy Devasthanam",
+          "intent": "Find places to stay (accommodation) near the specified pilgrimage site",
+          "context": "Pilgrimage assistant assisting with accommodation search"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "A125": {
+      "query": "accommodation near Sri Gnana Saraswathi Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "User is asking for accommodation near a specific temple, which is a travel planning request.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Gnana Saraswathi Devasthanam"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Gnana Saraswathi Devasthanam"
+    },
+    "F185": {
+      "query": "restaurants near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is requesting factual information about restaurants near a specific temple location, which is a knowledge/information query about local businesses and dining options.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "restaurants near Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Lakshmi Narasimha Swamy Temple"
+    },
+    "F186": {
+      "query": "food near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is asking for factual information about food options near a specific pilgrimage site, which is a knowledge retrieval request.",
+        "requires_retrieval": true,
+        "payload": {
+          "temple_name": "Sri Lakshmi Narasimha Swamy Temple",
+          "query_type": "food_nearby"
+        }
+      },
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter returned an empty structured response"
+    },
+    "F187": {
+      "query": "vegetarian restaurants near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "ValueError: Invalid conversation-router response: Expecting value: line 1 column 1 (char 0)"
+    },
+    "F188": {
+      "query": "restaurants near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "ValueError: Invalid conversation-router response: Expecting value: line 1 column 1 (char 0)"
+    },
+    "F189": {
+      "query": "food near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is asking for food options near a specific temple, which is a location-based information request.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Sita Ramachandra Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Sita Ramachandra Swamy Temple"
+    },
+    "F190": {
+      "query": "vegetarian restaurants near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "The user is asking for vegetarian restaurants near a specific temple location, which is a travel-related planning request for dining options during a pilgrimage visit.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "vegetarian restaurants near Sri Sita Ramachandra Swamy Temple",
+          "location": "Sri Sita Ramachandra Swamy Temple",
+          "dietary_preference": "vegetarian",
+          "intent": "find_dining_options"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Sita Ramachandra Swamy Temple"
+    },
+    "F191": {
+      "query": "restaurants near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.92,
+        "reason": "User is requesting dining options near a specific pilgrimage site, which falls under trip planning logistics.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "F192": {
+      "query": "food near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.85,
+        "reason": "The user is asking about food options near a specific pilgrimage site (Sri Raja Rajeshwara Swamy Devasthanam), which indicates they are planning a visit and need local dining information as part of their trip planning.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "food options near Sri Raja Rajeshwara Swamy Devasthanam",
+          "location": "Sri Raja Rajeshwara Swamy Devasthanam",
+          "intent": "find_dining_options"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "F193": {
+      "query": "vegetarian restaurants near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "The user is asking for specific information about vegetarian restaurants near a particular temple location (Sri Raja Rajeshwara Swamy Devasthanam). This is a factual knowledge query requiring location-based restaurant information.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Raja Rajeshwara Swamy Devasthanam",
+          "query_type": "vegetarian_restaurants"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "F194": {
+      "query": "restaurants near Sri Gnana Saraswathi Devasthanam",
+      "model": "openrouter/free",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "The user is asking for restaurants near a specific pilgrimage site (Sri Gnana Saraswathi Devasthanam), which indicates they are planning a trip and seeking nearby dining options as part of their travel arrangements.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "restaurants near Sri Gnana Saraswathi Devasthanam",
+          "location": "Sri Gnana Saraswathi Devastahanam",
+          "intent": "find_dining_options"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Gnana Saraswathi Devasthanam"
+    },
+    "E254": {
+      "query": "emergency hospital near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E255": {
+      "query": "emergency medical facilities near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E256": {
+      "query": "hospital near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E257": {
+      "query": "emergency hospital near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E258": {
+      "query": "emergency medical facilities near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E259": {
+      "query": "hospital near Sri Sita Ramachandra Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E260": {
+      "query": "emergency hospital near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E261": {
+      "query": "emergency medical facilities near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E262": {
+      "query": "hospital near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "E263": {
+      "query": "emergency hospital near Sri Gnana Saraswathi Devasthanam",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T021": {
+      "query": "history of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T022": {
+      "query": "darshan timings and worship information at Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T023": {
+      "query": "religious significance of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T024": {
+      "query": "architecture of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T025": {
+      "query": "how to travel to Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T026": {
+      "query": "history of Sri Jogulamba Devi Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T027": {
+      "query": "darshan timings and worship information at Sri Jogulamba Devi Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T028": {
+      "query": "religious significance of Sri Jogulamba Devi Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T029": {
+      "query": "architecture of Sri Jogulamba Devi Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T030": {
+      "query": "how to travel to Sri Jogulamba Devi Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: OpenRouter request failed: HTTP Error 429: Too Many Requests"
+    }
+  },
+  "retrieval": {
+    "llm_routed_dense": {
+      "cases": 60,
+      "recall": {
+        "1": 0.1,
+        "3": 0.18333333333333332,
+        "5": 0.18333333333333332
+      },
+      "mrr": 0.13611111111111113,
+      "failures": 49,
+      "average_latency_ms": 91.7333299992606
+    },
+    "llm_routed_hybrid": {
+      "cases": 60,
+      "recall": {
+        "1": 0.1,
+        "3": 0.13333333333333333,
+        "5": 0.13333333333333333
+      },
+      "mrr": 0.1138888888888889,
+      "failures": 52,
+      "average_latency_ms": 58.68168166683366
+    }
+  }
+}

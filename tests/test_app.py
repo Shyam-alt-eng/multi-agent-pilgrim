@@ -6,6 +6,9 @@ from src.query_understanding.parser import understand_query
 from src.retrieval.bm25 import BM25Index, tokenize
 from src.retrieval.retriever import reciprocal_rank_fusion
 from langchain_core.documents import Document
+from tests.evaluate_llm_routed_retrieval import load_cache, save_cache, stratified_sample
+from src.entity_registry.registry import EntityRegistry, EntityRegistryError
+from src.llm.llm_client import _retry_after_seconds
 
 
 class FakeLLM:
@@ -14,6 +17,22 @@ class FakeLLM:
 
     def generate_json(self, prompt):
         return self.response
+
+
+def test_router_normalizes_string_payload():
+    result = route_message(
+        "How do I get there?",
+        FakeLLM(
+            {
+                "route": "trip_planning",
+                "confidence": 0.9,
+                "reason": "Travel request",
+                "requires_retrieval": True,
+                "payload": "How do I get there?",
+            }
+        ),
+    )
+    assert result.payload == {"question": "How do I get there?"}
 
 
 def test_empty_filter():
@@ -98,6 +117,124 @@ def test_query_understanding_normalizes_null_constraints():
     assert result.constraints == {}
 
 
+def test_query_understanding_rejects_non_object_constraints():
+    try:
+        understand_query(
+            "Find vegetarian restaurants",
+            FakeLLM(
+                {
+                    "domain": "restaurant",
+                    "intent": "find",
+                    "entity_name": None,
+                    "constraints": ["vegetarian"],
+                    "confidence": 0.8,
+                }
+            ),
+        )
+    except ValueError as exc:
+        assert "constraints must be a JSON object or null" in str(exc)
+    else:
+        raise AssertionError("Expected non-object constraints to be rejected")
+
+
+def test_query_understanding_accepts_generic_constraint_object():
+    result = understand_query(
+        "Find a place near the temple",
+        FakeLLM(
+            {
+                "domain": "accommodation",
+                "intent": "find",
+                "entity_name": None,
+                "constraints": {"near": "temple"},
+                "confidence": 0.8,
+            }
+        ),
+    )
+    assert result.constraints == {"near": "temple"}
+
+
+def test_query_understanding_rejects_noncanonical_temple_section():
+    try:
+        understand_query(
+            "darshan timings at the temple",
+            FakeLLM(
+                {
+                    "domain": "temple",
+                    "intent": "information",
+                    "entity_name": "Sri Lakshmi Narasimha Swamy Temple",
+                    "section": "darshan timings and worship information",
+                    "constraints": {},
+                    "confidence": 0.8,
+                }
+            ),
+            entities=[],
+        )
+    except ValueError as exc:
+        assert "temple section must be one of" in str(exc)
+    else:
+        raise AssertionError("Expected noncanonical temple section to be rejected")
+
+
+def test_query_understanding_resolves_cross_domain_reference_entity():
+    result = understand_query(
+        "Find accommodation near Sri Lakshmi Narasimha Swamy Temple",
+        FakeLLM(
+            {
+                "domain": "accommodation",
+                "intent": "find",
+                "entity_name": None,
+                "reference_entity_name": "Sri Lakshmi Narasimha Swamy Temple",
+                "reference_entity_type": "temple",
+                "constraints": {"near": True},
+                "confidence": 0.9,
+            }
+        ),
+    )
+    assert result.domain.value == "accommodation"
+    assert result.entity_id is None
+    assert result.temple_id == "T0001"
+    assert result.reference_entity_id == "T0001"
+    assert result.reference_entity_type == "temple"
+
+
+def test_openrouter_structured_client_builds_schema_format():
+    from src.conversation.schemas import ConversationRoute
+    from src.llm.llm_client import OpenRouterStructuredLLM
+
+    client = OpenRouterStructuredLLM(response_model=ConversationRoute)
+    schema = client.response_model.model_json_schema()
+    assert schema["type"] == "object"
+    assert "route" in schema["properties"]
+
+
+def test_gemini_structured_client_builds_schema_format():
+    from src.conversation.schemas import ConversationRoute
+    from src.llm.llm_client import GeminiStructuredLLM
+
+    client = GeminiStructuredLLM(response_model=ConversationRoute)
+    schema = client.response_model.model_json_schema()
+    assert schema["type"] == "object"
+    assert "route" in schema["properties"]
+
+
+def test_retry_after_seconds_accepts_seconds():
+    assert _retry_after_seconds("2.5") == 2.5
+
+
+def test_retry_after_seconds_rejects_invalid_value():
+    assert _retry_after_seconds("not-a-delay") is None
+
+
+def test_groq_structured_client_uses_explicit_timeout():
+    from src.llm.llm_client import (
+        DEFAULT_REQUEST_TIMEOUT_SECONDS,
+        GroqStructuredLLM,
+    )
+
+    client = GroqStructuredLLM()
+    assert client.timeout_seconds == DEFAULT_REQUEST_TIMEOUT_SECONDS
+
+
 def test_query_understanding_rejects_unknown_entity():
     try:
         understand_query(
@@ -117,6 +254,60 @@ def test_query_understanding_rejects_unknown_entity():
         assert "Unknown entity_name" in str(exc)
     else:
         raise AssertionError("Expected unknown entity to be rejected")
+
+
+def test_query_understanding_prefers_exact_entity_name_match():
+    result = understand_query(
+        "Tell me about Sri Lakshmi Narasimha Swamy Temple",
+        FakeLLM(
+            {
+                "domain": "temple",
+                "intent": "information",
+                "entity_name": "Sri Lakshmi Narasimha Swamy Temple",
+                "constraints": {},
+                "confidence": 0.9,
+            }
+        ),
+        entities=[
+            {
+                "source_type": "temple",
+                "temple_id": "T0017",
+                "name": "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+            },
+            {
+                "source_type": "temple",
+                "temple_id": "T0001",
+                "name": "Sri Lakshmi Narasimha Swamy Temple",
+            },
+        ],
+    )
+    assert result.temple_id == "T0001"
+
+
+def test_registry_resolves_alias():
+    result = EntityRegistry().resolve("Yadadri Temple", entity_type="temple")
+    assert result.entity_id == "T0001"
+    assert result.match_type == "exact_alias"
+
+
+def test_registry_rejects_ambiguous_alias():
+    try:
+        EntityRegistry().resolve("Dakshina Kashi", entity_type="temple")
+    except EntityRegistryError as exc:
+        assert "Ambiguous entity_name" in str(exc)
+    else:
+        raise AssertionError("Expected ambiguous alias to be rejected")
+
+
+def test_registry_keeps_similar_temple_names_distinct():
+    registry = EntityRegistry()
+    assert registry.resolve(
+        "Sri Lakshmi Narasimha Swamy Temple", entity_type="temple"
+    ).entity_id == "T0001"
+    assert registry.resolve(
+        "Sri Lakshmi Narasimha Swamy Temple, Dharmapuri",
+        entity_type="temple",
+    ).entity_id == "T0017"
 
 
 def test_grounded_answer_requires_available_citations():
@@ -176,3 +367,25 @@ def test_reciprocal_rank_fusion_is_deterministic():
         [["a", "b"], ["b", "a"]],
         top_k=2,
     ) == [("a", 0.03252247488101534), ("b", 0.03252247488101534)]
+
+
+def test_llm_router_sample_is_deterministic_and_stratified():
+    cases = [
+        {"id": "t1", "domain": "temple"},
+        {"id": "a1", "domain": "accommodation"},
+        {"id": "r1", "domain": "restaurant"},
+        {"id": "e1", "domain": "emergency"},
+    ]
+    assert [case["id"] for case in stratified_sample(cases, limit=4)] == [
+        "t1",
+        "a1",
+        "r1",
+        "e1",
+    ]
+
+
+def test_llm_router_cache_round_trip(tmp_path):
+    path = tmp_path / "cache.json"
+    expected = {"cache-key": {"validated_query": None, "error": "test"}}
+    save_cache(path, expected)
+    assert load_cache(path) == expected

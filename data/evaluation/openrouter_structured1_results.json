@@ -1,0 +1,64 @@
+{
+  "configuration": {
+    "cache_version": "llm-routed-retrieval-v3",
+    "cases": 1,
+    "model": "openrouter/free",
+    "provider": "openrouter",
+    "sample_ids": [
+      "T001"
+    ]
+  },
+  "routing": {
+    "cases": 1,
+    "valid_route_rate": 0.0,
+    "validated_query_rate": 0.0,
+    "domain_accuracy": 0.0,
+    "entity_accuracy": 0.0,
+    "section_accuracy": 0.0,
+    "valid_prediction_metrics": {
+      "cases": 0,
+      "domain_accuracy": 0.0,
+      "entity_accuracy": 0.0,
+      "section_accuracy": 0.0
+    },
+    "errors": 1
+  },
+  "queries": {
+    "T001": {
+      "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openrouter/free",
+      "route": null,
+      "validated_query": null,
+      "error": "LLMRateLimitError: OpenRouter rate limit persisted after 4 attempts",
+      "retry_metadata": {
+        "attempts": 4,
+        "retry_after_seconds": null,
+        "next_allowed_at": null
+      }
+    }
+  },
+  "retrieval": {
+    "llm_routed_dense": {
+      "cases": 1,
+      "recall": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "mrr": 0.0,
+      "failures": 1,
+      "average_latency_ms": 0.0025999615900218487
+    },
+    "llm_routed_hybrid": {
+      "cases": 1,
+      "recall": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "mrr": 0.0,
+      "failures": 1,
+      "average_latency_ms": 0.003400025889277458
+    }
+  }
+}

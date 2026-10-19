@@ -1,0 +1,428 @@
+{
+  "configuration": {
+    "cases": 60,
+    "model": "qwen/qwen3.8-27b"
+  },
+  "queries": {
+    "T001": {
+      "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T002": {
+      "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T003": {
+      "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T004": {
+      "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T005": {
+      "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T006": {
+      "query": "history of Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T007": {
+      "query": "darshan timings and worship information at Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T008": {
+      "query": "religious significance of Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T009": {
+      "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T010": {
+      "query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T011": {
+      "query": "history of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T012": {
+      "query": "darshan timings and worship information at Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T013": {
+      "query": "religious significance of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T014": {
+      "query": "architecture of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T015": {
+      "query": "how to travel to Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T016": {
+      "query": "history of Sri Gnana Saraswathi Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T017": {
+      "query": "darshan timings and worship information at Sri Gnana Saraswathi Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T018": {
+      "query": "religious significance of Sri Gnana Saraswathi Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T019": {
+      "query": "architecture of Sri Gnana Saraswathi Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T020": {
+      "query": "how to travel to Sri Gnana Saraswathi Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A116": {
+      "query": "accommodation near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A117": {
+      "query": "hotels to stay near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A118": {
+      "query": "places to stay near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A119": {
+      "query": "accommodation near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A120": {
+      "query": "hotels to stay near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A121": {
+      "query": "places to stay near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A122": {
+      "query": "accommodation near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A123": {
+      "query": "hotels to stay near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A124": {
+      "query": "places to stay near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "A125": {
+      "query": "accommodation near Sri Gnana Saraswathi Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F185": {
+      "query": "restaurants near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F186": {
+      "query": "food near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F187": {
+      "query": "vegetarian restaurants near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F188": {
+      "query": "restaurants near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F189": {
+      "query": "food near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F190": {
+      "query": "vegetarian restaurants near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F191": {
+      "query": "restaurants near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F192": {
+      "query": "food near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F193": {
+      "query": "vegetarian restaurants near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "F194": {
+      "query": "restaurants near Sri Gnana Saraswathi Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E254": {
+      "query": "emergency hospital near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E255": {
+      "query": "emergency medical facilities near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E256": {
+      "query": "hospital near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E257": {
+      "query": "emergency hospital near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E258": {
+      "query": "emergency medical facilities near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E259": {
+      "query": "hospital near Sri Sita Ramachandra Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E260": {
+      "query": "emergency hospital near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E261": {
+      "query": "emergency medical facilities near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E262": {
+      "query": "hospital near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "E263": {
+      "query": "emergency hospital near Sri Gnana Saraswathi Devasthanam",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T021": {
+      "query": "history of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T022": {
+      "query": "darshan timings and worship information at Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T023": {
+      "query": "religious significance of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T024": {
+      "query": "architecture of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T025": {
+      "query": "how to travel to Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T026": {
+      "query": "history of Sri Jogulamba Devi Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T027": {
+      "query": "darshan timings and worship information at Sri Jogulamba Devi Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T028": {
+      "query": "religious significance of Sri Jogulamba Devi Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T029": {
+      "query": "architecture of Sri Jogulamba Devi Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    },
+    "T030": {
+      "query": "how to travel to Sri Jogulamba Devi Temple",
+      "model": "qwen/qwen3.8-27b",
+      "route": null,
+      "validated_query": null,
+      "error": "HTTPError: HTTP Error 402: Payment Required"
+    }
+  }
+}

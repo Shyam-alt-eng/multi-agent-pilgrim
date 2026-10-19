@@ -1,0 +1,171 @@
+{
+  "configuration": {
+    "cache_version": "llm-routed-retrieval-v3",
+    "cases": 5,
+    "model": "openai/gpt-oss-120b",
+    "provider": "groq",
+    "sample_ids": [
+      "T001",
+      "T002",
+      "T003",
+      "T004",
+      "T005"
+    ]
+  },
+  "routing": {
+    "cases": 5,
+    "valid_route_rate": 1.0,
+    "validated_query_rate": 1.0,
+    "domain_accuracy": 1.0,
+    "entity_accuracy": 1.0,
+    "section_accuracy": 1.0,
+    "valid_prediction_metrics": {
+      "cases": 5,
+      "domain_accuracy": 1.0,
+      "entity_accuracy": 1.0,
+      "section_accuracy": 1.0
+    },
+    "errors": 0
+  },
+  "queries": {
+    "T001": {
+      "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-120b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.97,
+        "reason": "User requests historical information about a temple, which is a factual knowledge request",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "history of Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T002": {
+      "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-120b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.98,
+        "reason": "User requests specific darshan timings and worship details for a temple, which is an informational query.",
+        "requires_retrieval": true,
+        "payload": {
+          "temple": "Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "worship"
+      },
+      "error": null
+    },
+    "T003": {
+      "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-120b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.98,
+        "reason": "User asks about the religious significance of a specific temple, which is a request for factual information.",
+        "requires_retrieval": true,
+        "payload": {
+          "topic": "Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "significance"
+      },
+      "error": null
+    },
+    "T004": {
+      "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-120b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.97,
+        "reason": "User requests factual information about the architecture of Sri Lakshmi Narasimha Swamy Temple, which is a knowledge-seeking query.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "architecture of Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T005": {
+      "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-120b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.96,
+        "reason": "User asks how to travel to a specific temple, which is a travel planning request.",
+        "requires_retrieval": true,
+        "payload": {
+          "message": "how to travel to Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "travel"
+      },
+      "error": null
+    }
+  },
+  "retrieval": {
+    "llm_routed_dense": {
+      "cases": 5,
+      "recall": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0
+      },
+      "mrr": 1.0,
+      "failures": 0,
+      "average_latency_ms": 654.2355800047517
+    },
+    "llm_routed_hybrid": {
+      "cases": 5,
+      "recall": {
+        "1": 1.0,
+        "3": 1.0,
+        "5": 1.0
+      },
+      "mrr": 1.0,
+      "failures": 0,
+      "average_latency_ms": 313.7354400008917
+    }
+  }
+}

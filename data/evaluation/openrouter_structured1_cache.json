@@ -1,0 +1,14 @@
+{
+  "9040185dc9032ecc0a3224f1ac714e6e8befea487fc389718e7eaa57e874d698": {
+    "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+    "model": "openrouter/free",
+    "route": null,
+    "validated_query": null,
+    "error": "LLMRateLimitError: OpenRouter rate limit persisted after 4 attempts",
+    "retry_metadata": {
+      "attempts": 4,
+      "retry_after_seconds": null,
+      "next_allowed_at": null
+    }
+  }
+}

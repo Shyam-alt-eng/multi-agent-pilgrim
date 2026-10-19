@@ -1,0 +1,72 @@
+{
+  "a2a7306a4785a87de29d8da22d5c6619af1fea8f1e6650f7bc38926397935690": {
+    "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "eaa6e8eac317a32110f17d815922c50bfbc8945d8b339e8c680c2c0501d86da8": {
+    "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "a9a4ab28e51e40441fb168be64d5ed8b911f7db6dedca12b8564ab4760ecd8b1": {
+    "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "ef67fd2cb16052612e34ed605062ae80b17162212e04866eaf9c4554dedd4c32": {
+    "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "9785de553995880f13d6daa95cc581f1cfcc5c01db07550462070020257d8301": {
+    "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "9757035ce28ee63c08c01ee367c0e1a32e069a8a44e3114adc95f423a87e992b": {
+    "query": "history of Sri Sita Ramachandra Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "49ec1ebafc5bf90b33ba55731129256245e5cb40d7892ac45b846cf7d280dc13": {
+    "query": "darshan timings and worship information at Sri Sita Ramachandra Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "134661f7a32a7bd570ec81e91d3988e1fed0e42250959ddb880bc49d748b3602": {
+    "query": "religious significance of Sri Sita Ramachandra Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "97e58ca53f548e3358575f8ae77e36555248d800929361372361278af51792e9": {
+    "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  },
+  "12d5a24013be76efb6bc9244af967073319e7433c444c9961d5337927c2927e4": {
+    "query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+    "model": "qwen/qwen3.8-27b",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: OpenRouter request failed: HTTP Error 402: Payment Required"
+  }
+}

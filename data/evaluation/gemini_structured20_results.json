@@ -1,0 +1,217 @@
+{
+  "configuration": {
+    "cache_version": "llm-routed-retrieval-v3",
+    "cases": 20,
+    "model": "gemini-3-flash-preview",
+    "provider": "gemini",
+    "sample_ids": [
+      "T001",
+      "T002",
+      "T003",
+      "T004",
+      "T005",
+      "T006",
+      "T007",
+      "T008",
+      "T009",
+      "T010",
+      "T011",
+      "T012",
+      "T013",
+      "T014",
+      "T015",
+      "T016",
+      "T017",
+      "T018",
+      "T019",
+      "T020"
+    ]
+  },
+  "routing": {
+    "cases": 20,
+    "valid_route_rate": 0.05,
+    "validated_query_rate": 0.0,
+    "domain_accuracy": 0.0,
+    "entity_accuracy": 0.0,
+    "section_accuracy": 0.0,
+    "valid_prediction_metrics": {
+      "cases": 0,
+      "domain_accuracy": 0.0,
+      "entity_accuracy": 0.0,
+      "section_accuracy": 0.0
+    },
+    "errors": 20
+  },
+  "queries": {
+    "T001": {
+      "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T002": {
+      "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T003": {
+      "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T004": {
+      "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T005": {
+      "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "The user is asking for travel logistics and directions to a specific pilgrimage site, which falls under trip planning.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T006": {
+      "query": "history of Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T007": {
+      "query": "darshan timings and worship information at Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T008": {
+      "query": "religious significance of Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T009": {
+      "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T010": {
+      "query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T011": {
+      "query": "history of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T012": {
+      "query": "darshan timings and worship information at Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T013": {
+      "query": "religious significance of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T014": {
+      "query": "architecture of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T015": {
+      "query": "how to travel to Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T016": {
+      "query": "history of Sri Gnana Saraswathi Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T017": {
+      "query": "darshan timings and worship information at Sri Gnana Saraswathi Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T018": {
+      "query": "religious significance of Sri Gnana Saraswathi Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T019": {
+      "query": "architecture of Sri Gnana Saraswathi Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    },
+    "T020": {
+      "query": "how to travel to Sri Gnana Saraswathi Devasthanam",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed with HTTP 402: Payment Required"
+    }
+  },
+  "retrieval": {
+    "llm_routed_dense": {
+      "cases": 20,
+      "recall": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "mrr": 0.0,
+      "failures": 20,
+      "average_latency_ms": 0.0004350004019215703
+    },
+    "llm_routed_hybrid": {
+      "cases": 20,
+      "recall": {
+        "1": 0.0,
+        "3": 0.0,
+        "5": 0.0
+      },
+      "mrr": 0.0,
+      "failures": 20,
+      "average_latency_ms": 0.0002300017513334751
+    }
+  }
+}

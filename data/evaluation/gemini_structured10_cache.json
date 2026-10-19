@@ -1,0 +1,134 @@
+{
+  "0372f1a36de3ce7a5b4b0bb44b8aaf50f6c7372614ba845dd8b9bf8222dad302": {
+    "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": {
+      "route": "knowledge_query",
+      "confidence": 1.0,
+      "reason": "The user is asking for historical information regarding a specific pilgrimage site, which requires factual retrieval.",
+      "requires_retrieval": true,
+      "payload": {}
+    },
+    "validated_query": {
+      "source_type": "temple",
+      "temple_id": "T0001",
+      "entity_id": "T0001",
+      "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+      "matched_alias": "sri lakshmi narasimha swamy temple",
+      "match_type": "exact_alias",
+      "section": "history"
+    },
+    "error": null
+  },
+  "86ddb4d6ef7510abce464019eb1eeb9aa94c1a0902a370f0f998e67b02e65119": {
+    "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": {
+      "route": "knowledge_query",
+      "confidence": 1.0,
+      "reason": "The user is requesting specific factual information regarding the operational hours and ritual procedures of a religious site.",
+      "requires_retrieval": true,
+      "payload": {}
+    },
+    "validated_query": {
+      "source_type": "temple",
+      "temple_id": "T0001",
+      "entity_id": "T0001",
+      "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+      "matched_alias": "sri lakshmi narasimha swamy temple",
+      "match_type": "exact_alias",
+      "section": "darshan timings and worship information"
+    },
+    "error": null
+  },
+  "c8acc6ec0e368e5fc30918e8181a4e3f3722cf9af7dd195880ba7fe466886196": {
+    "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": {
+      "route": "knowledge_query",
+      "confidence": 0.98,
+      "reason": "The user is asking for specific factual information regarding the religious importance of the Sri Lakshmi Narasimha Swamy Temple.",
+      "requires_retrieval": true,
+      "payload": {}
+    },
+    "validated_query": {
+      "source_type": "temple",
+      "temple_id": "T0001",
+      "entity_id": "T0001",
+      "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+      "matched_alias": "sri lakshmi narasimha swamy temple",
+      "match_type": "exact_alias",
+      "section": "religious significance"
+    },
+    "error": null
+  },
+  "2e654e02c384cea724bed52f97fb23487f9aa645798c5e104659852364983bd6": {
+    "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+  },
+  "de9a5fb1cbf8f4646e04daa205fd7f8cc78b8197e0562ac8b498890250f61c5e": {
+    "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+  },
+  "0aa814b023daf3c4a4ff88725e3644eda1b5a8c47206367d076e916459f3028f": {
+    "query": "history of Sri Sita Ramachandra Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+  },
+  "eeca19996d82d8d6e752b614c03499947d2223a33510ac1297f5625142801e21": {
+    "query": "darshan timings and worship information at Sri Sita Ramachandra Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+  },
+  "ef2b99b4aa9dffc6f9135e3674713d449b97d67b3b9196367f3f5e375d942fe5": {
+    "query": "religious significance of Sri Sita Ramachandra Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": {
+      "route": "knowledge_query",
+      "confidence": 0.98,
+      "reason": "The user is asking for specific factual information regarding the religious importance and history of the Sri Sita Ramachandra Swamy Temple.",
+      "requires_retrieval": true,
+      "payload": {}
+    },
+    "validated_query": {
+      "source_type": "temple",
+      "temple_id": "T0002",
+      "entity_id": "T0002",
+      "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+      "matched_alias": "sri sita ramachandra swamy temple",
+      "match_type": "exact_alias",
+      "section": "religious significance"
+    },
+    "error": null
+  },
+  "19a9c34325de8547f24dce7d73b2896b6b4350f7286f68b3750d810051e4e311": {
+    "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": null,
+    "validated_query": null,
+    "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+  },
+  "0ab52eb563794058129eb5c53a56e900bda1b7e9822dfe18fae8547df961a589": {
+    "query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+    "model": "gemini-3-flash-preview",
+    "route": {
+      "route": "trip_planning",
+      "confidence": 0.95,
+      "reason": "The user is asking for logistics and travel instructions to reach a specific pilgrimage destination.",
+      "requires_retrieval": true,
+      "payload": {}
+    },
+    "validated_query": null,
+    "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+  }
+}

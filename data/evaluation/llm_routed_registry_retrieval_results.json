@@ -1,0 +1,1198 @@
+{
+  "configuration": {
+    "cache_version": "llm-routed-retrieval-v2",
+    "cases": 60,
+    "model": "openai/gpt-oss-20b",
+    "sample_ids": [
+      "T001",
+      "T002",
+      "T003",
+      "T004",
+      "T005",
+      "T006",
+      "T007",
+      "T008",
+      "T009",
+      "T010",
+      "T011",
+      "T012",
+      "T013",
+      "T014",
+      "T015",
+      "T016",
+      "T017",
+      "T018",
+      "T019",
+      "T020",
+      "A116",
+      "A117",
+      "A118",
+      "A119",
+      "A120",
+      "A121",
+      "A122",
+      "A123",
+      "A124",
+      "A125",
+      "F185",
+      "F186",
+      "F187",
+      "F188",
+      "F189",
+      "F190",
+      "F191",
+      "F192",
+      "F193",
+      "F194",
+      "E254",
+      "E255",
+      "E256",
+      "E257",
+      "E258",
+      "E259",
+      "E260",
+      "E261",
+      "E262",
+      "E263",
+      "T021",
+      "T022",
+      "T023",
+      "T024",
+      "T025",
+      "T026",
+      "T027",
+      "T028",
+      "T029",
+      "T030"
+    ]
+  },
+  "routing": {
+    "cases": 60,
+    "valid_route_rate": 1.0,
+    "validated_query_rate": 0.5166666666666667,
+    "domain_accuracy": 0.5,
+    "entity_accuracy": 0.5166666666666667,
+    "section_accuracy": 0.26666666666666666,
+    "errors": 29
+  },
+  "queries": {
+    "T001": {
+      "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User requested historical information about a specific temple",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "history of Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T002": {
+      "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests specific information about temple timings and worship details",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "darshan_and_worship"
+      },
+      "error": null
+    },
+    "T003": {
+      "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User asks for religious significance of Sri Lakshmi Narasimha Swamy Temple, which is a factual knowledge request.",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "religious significance of Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "religious significance"
+      },
+      "error": null
+    },
+    "T004": {
+      "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User asks for specific information about the architecture of a temple, which requires factual knowledge.",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "architecture of Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T005": {
+      "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is asking for information on how to travel to a specific temple, which is a factual knowledge request.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "travel"
+      },
+      "error": null
+    },
+    "T006": {
+      "query": "history of Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting historical information about Sri Sita Ramachandra Swamy Temple",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T007": {
+      "query": "darshan timings and worship information at Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests darshan timings and worship information for a specific temple",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": "timings and worship"
+      },
+      "error": null
+    },
+    "T008": {
+      "query": "religious significance of Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for information about the religious significance of a temple, which is a knowledge request.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": "religious significance"
+      },
+      "error": null
+    },
+    "T009": {
+      "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User asks for information about architecture of a specific temple",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "Sri Sita Ramachandra Swamy Temple architecture"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T010": {
+      "query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "User requests travel instructions to a specific temple",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "how to travel to Sri Sita Ramachandra Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T011": {
+      "query": "history of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting historical information about Sri Raja Rajeshwara Swamy Devasthanam, which is a fact-based knowledge query.",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "history of Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T012": {
+      "query": "darshan timings and worship information at Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.98,
+        "reason": "User is requesting specific information about darshan timings and worship details for a pilgrimage site, which is a knowledge lookup request.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "darshan timings and worship information at Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": "darshan"
+      },
+      "error": null
+    },
+    "T013": {
+      "query": "religious significance of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests information on religious significance of Sri Raja Rajeshwara Swamy Devasthanam, which is a factual knowledge question",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T014": {
+      "query": "architecture of Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests specific information about the architecture of a pilgrimage site.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T015": {
+      "query": "how to travel to Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "User asks for directions/travel instructions to a specific pilgrimage site.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0003",
+        "entity_id": "T0003",
+        "canonical_name": "Sri Raja Rajeshwara Swamy Devasthanam",
+        "matched_alias": "sri raja rajeshwara swamy devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T016": {
+      "query": "history of Sri Gnana Saraswathi Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User asks for historical information about a specific pilgrimage site, which requires factual knowledge.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "history of Sri Gnana Saraswathi Devasthanam"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T017": {
+      "query": "darshan timings and worship information at Sri Gnana Saraswathi Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests specific information about darshan timings and worship at Sri Gnana Saraswathi Devasthanam",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": "darshan timings, worship information"
+      },
+      "error": null
+    },
+    "T018": {
+      "query": "religious significance of Sri Gnana Saraswathi Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is requesting factual information about the religious significance of a specific temple",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": "religious significance"
+      },
+      "error": null
+    },
+    "T019": {
+      "query": "architecture of Sri Gnana Saraswathi Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is requesting factual information about the architecture of Sri Gnana Saraswathi Devasthanam.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "architecture of Sri Gnana Saraswathi Devasthanam"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T020": {
+      "query": "how to travel to Sri Gnana Saraswathi Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "User asks for travel instructions to a specific pilgrimage site, which falls under trip planning.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0004",
+        "entity_id": "T0004",
+        "canonical_name": "Sri Gnana Saraswathi Devasthanam",
+        "matched_alias": "sri gnana saraswathi devasthanam",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "A116": {
+      "query": "accommodation near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User asks for accommodation information near a specific temple, which is a request for knowledge.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "A117": {
+      "query": "hotels to stay near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.93,
+        "reason": "User is requesting specific accommodation options near a pilgrimage site, which is part of planning a visit.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near temple', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "A118": {
+      "query": "places to stay near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.85,
+        "reason": "User seeks accommodation options near Sri Lakshmi Narasimha Swamy Temple for pilgrimage planning",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "Sri Lakshmi Narasimha Swamy Temple accommodations"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value=['near'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "A119": {
+      "query": "accommodation near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "User is requesting accommodation information near a specific temple",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "accommodation near Sri Sita Ramachandra Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Sita Ramachandra Swamy Temple', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "A120": {
+      "query": "hotels to stay near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.85,
+        "reason": "User is seeking specific travel accommodation recommendations near a temple, which falls under trip planning.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Sita Ramachandra Swamy Temple"
+    },
+    "A121": {
+      "query": "places to stay near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User asks for factual information about lodging near a specific temple",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Sita Ramachandra Swamy Temple', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "A122": {
+      "query": "accommodation near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "User requests accommodation near a specific temple",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "A123": {
+      "query": "hotels to stay near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "User requests hotels near a specific pilgrimage site, which is a trip planning request.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Raja Rajeshwara Swamy Devasthanam', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "A124": {
+      "query": "places to stay near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "User is asking for places to stay near a pilgrimage site, which is a trip planning request",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "A125": {
+      "query": "accommodation near Sri Gnana Saraswathi Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.9,
+        "reason": "User seeks accommodation near a pilgrimage site",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Gnana Saraswathi Devasthanam",
+          "service": "accommodation"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Gnana Saraswathi Devasthanam', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "F185": {
+      "query": "restaurants near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting information about restaurants near a specific temple, which is an informational request. No planning or clarification needed.",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "restaurants near Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "F186": {
+      "query": "food near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting information about food options near Sri Lakshmi Narasimha Swamy Temple, which is a factual knowledge question.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value=['near Sri Lakshmi Narasimha Swamy Temple'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "F187": {
+      "query": "vegetarian restaurants near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for specific information about vegetarian restaurants near a temple.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "vegetarian restaurants near Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value=['vegetarian'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "F188": {
+      "query": "restaurants near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting information about restaurants near a specific location, which is a knowledge query.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Sita Ramachandra Swamy Temple",
+          "query": "restaurants near"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Sita Ramachandra Swamy Temple"
+    },
+    "F189": {
+      "query": "food near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User asks for information about food near a specific temple, which is a factual knowledge request.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Sita Ramachandra Swamy Temple",
+          "query": "food"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Sita Ramachandra Swamy Temple', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "F190": {
+      "query": "vegetarian restaurants near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is requesting information about vegetarian restaurants near Sri Sita Ramachandra Swamy Temple",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='vegetarian', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "F191": {
+      "query": "restaurants near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is requesting information about restaurants near a specified location",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Raja Rajeshwara Swamy Devasthanam",
+          "query": "restaurants near Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Raja Rajeshwara Swamy Devasthanam', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "F192": {
+      "query": "food near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is requesting specific information about food options near a specific location",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "F193": {
+      "query": "vegetarian restaurants near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User asks for information about vegetarian restaurants near a specific location.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value=['vegetarian'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "F194": {
+      "query": "restaurants near Sri Gnana Saraswathi Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is requesting information on restaurants near a specific location",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Gnana Saraswathi Devasthanam"
+    },
+    "E254": {
+      "query": "emergency hospital near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is asking for location-based info about an emergency hospital near Sri Lakshmi Narasimha Swamy Temple.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "emergency hospital near Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value=['near Sri Lakshmi Narasimha Swamy Temple'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "E255": {
+      "query": "emergency medical facilities near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting information on emergency medical facilities near Sri Lakshmi Narasimha Swamy Temple, which requires factual knowledge retrieval",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "emergency medical facilities near Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Lakshmi Narasimha Swamy Temple', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "E256": {
+      "query": "hospital near Sri Lakshmi Narasimha Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting location-based information about a hospital near a specific temple",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "hospital near Sri Lakshmi Narasimha Swamy Temple"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value=['near'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "E257": {
+      "query": "emergency hospital near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.92,
+        "reason": "User requests info about an emergency hospital near a specific temple, which is a location-based knowledge query.",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Sita Ramachandra Swamy Temple",
+          "service": "emergency hospital"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value=['near'], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "E258": {
+      "query": "emergency medical facilities near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User requests specific location-based information about medical facilities near a temple",
+        "requires_retrieval": true,
+        "payload": {
+          "location": "Sri Sita Ramachandra Swamy Temple",
+          "information": "emergency medical facilities"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "E259": {
+      "query": "hospital near Sri Sita Ramachandra Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is requesting location-based information about a hospital near a specific temple, which is a knowledge query.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "E260": {
+      "query": "emergency hospital near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for information about the nearest emergency hospital to a specific location, which is a request for factual knowledge.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Unknown entity_name: Sri Raja Rajeshwara Swamy Devasthanam"
+    },
+    "E261": {
+      "query": "emergency medical facilities near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is asking for information about medical facilities near a specific location.",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "emergency medical facilities near Sri Raja Rajeshwara Swamy Devasthanam"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Raja Rajeshwara Swamy Devasthanam', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "E262": {
+      "query": "hospital near Sri Raja Rajeshwara Swamy Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests specific location-based information about a hospital near a temple, which is a knowledge query.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near Sri Raja Rajeshwara Swamy Devasthanam', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "E263": {
+      "query": "emergency hospital near Sri Gnana Saraswathi Devasthanam",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests specific location-based information about an emergency hospital near Sri Gnana Saraswathi Devasthanam.",
+        "requires_retrieval": true,
+        "payload": {
+          "location_query": "hospital near Sri Gnana Saraswathi Devasthanam"
+        }
+      },
+      "validated_query": null,
+      "error": "ValueError: Invalid structured-query response: 1 validation error for StructuredQuery\nconstraints\n  Input should be a valid dictionary [type=dict_type, input_value='near', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/dict_type"
+    },
+    "T021": {
+      "query": "history of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests historical information about a temple",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0005",
+        "entity_id": "T0005",
+        "canonical_name": "Sri Kondagattu Anjaneya Swamy Temple",
+        "matched_alias": "sri kondagattu anjaneya swamy temple",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T022": {
+      "query": "darshan timings and worship information at Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.92,
+        "reason": "User requests specific darshan timings and worship information for a temple, which requires fetching up-to-date facts.",
+        "requires_retrieval": true,
+        "payload": {
+          "user_query": "darshan timings and worship information at Sri Kondagattu Anjaneya Swamy Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0005",
+        "entity_id": "T0005",
+        "canonical_name": "Sri Kondagattu Anjaneya Swamy Temple",
+        "matched_alias": "sri kondagattu anjaneya swamy temple",
+        "match_type": "exact_alias",
+        "section": "timings_and_worship_info"
+      },
+      "error": null
+    },
+    "T023": {
+      "query": "religious significance of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is asking about the religious significance of a specific temple, which is a factual knowledge query.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0005",
+        "entity_id": "T0005",
+        "canonical_name": "Sri Kondagattu Anjaneya Swamy Temple",
+        "matched_alias": "sri kondagattu anjaneya swamy temple",
+        "match_type": "exact_alias",
+        "section": null
+      },
+      "error": null
+    },
+    "T024": {
+      "query": "architecture of Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User requests information about the architecture of Sri Kondagattu Anjaneya Swamy Temple, which falls under knowledge queries.",
+        "requires_retrieval": true,
+        "payload": {
+          "topic": "Sri Kondagattu Anjaneya Swamy Temple architecture"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0005",
+        "entity_id": "T0005",
+        "canonical_name": "Sri Kondagattu Anjaneya Swamy Temple",
+        "matched_alias": "sri kondagattu anjaneya swamy temple",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T025": {
+      "query": "how to travel to Sri Kondagattu Anjaneya Swamy Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "User asks how to travel to Sri Kondagattu Anjaneya Swamy Temple",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0005",
+        "entity_id": "T0005",
+        "canonical_name": "Sri Kondagattu Anjaneya Swamy Temple",
+        "matched_alias": "sri kondagattu anjaneya swamy temple",
+        "match_type": "exact_alias",
+        "section": "travel"
+      },
+      "error": null
+    },
+    "T026": {
+      "query": "history of Sri Jogulamba Devi Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User is requesting historical information about Sri Jogulamba Devi Temple",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0006",
+        "entity_id": "T0006",
+        "canonical_name": "Sri Jogulamba Devi Temple",
+        "matched_alias": "sri jogulamba devi temple",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T027": {
+      "query": "darshan timings and worship information at Sri Jogulamba Devi Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests specific information about temple timings and worship schedule",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0006",
+        "entity_id": "T0006",
+        "canonical_name": "Sri Jogulamba Devi Temple",
+        "matched_alias": "sri jogulamba devi temple",
+        "match_type": "exact_alias",
+        "section": "darshan timings and worship information"
+      },
+      "error": null
+    },
+    "T028": {
+      "query": "religious significance of Sri Jogulamba Devi Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.95,
+        "reason": "User requests religious significance of a specific temple, which is a factual knowledge question.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0006",
+        "entity_id": "T0006",
+        "canonical_name": "Sri Jogulamba Devi Temple",
+        "matched_alias": "sri jogulamba devi temple",
+        "match_type": "exact_alias",
+        "section": "religious significance"
+      },
+      "error": null
+    },
+    "T029": {
+      "query": "architecture of Sri Jogulamba Devi Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User is asking for specific information about the architecture of the Sri Jogulamba Devi Temple, which is a factual knowledge request.",
+        "requires_retrieval": true,
+        "payload": {
+          "query": "architecture of Sri Jogulamba Devi Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0006",
+        "entity_id": "T0006",
+        "canonical_name": "Sri Jogulamba Devi Temple",
+        "matched_alias": "sri jogulamba devi temple",
+        "match_type": "exact_alias",
+        "section": "architecture"
+      },
+      "error": null
+    },
+    "T030": {
+      "query": "how to travel to Sri Jogulamba Devi Temple",
+      "model": "openai/gpt-oss-20b",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.9,
+        "reason": "User asks for travel instructions",
+        "requires_retrieval": true,
+        "payload": {
+          "question": "how to travel to Sri Jogulamba Devi Temple"
+        }
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0006",
+        "entity_id": "T0006",
+        "canonical_name": "Sri Jogulamba Devi Temple",
+        "matched_alias": "sri jogulamba devi temple",
+        "match_type": "exact_alias",
+        "section": "travel"
+      },
+      "error": null
+    }
+  },
+  "retrieval": {
+    "llm_routed_dense": {
+      "cases": 60,
+      "recall": {
+        "1": 0.2833333333333333,
+        "3": 0.3333333333333333,
+        "5": 0.3333333333333333
+      },
+      "mrr": 0.3,
+      "failures": 40,
+      "average_latency_ms": 212.39158499908322
+    },
+    "llm_routed_hybrid": {
+      "cases": 60,
+      "recall": {
+        "1": 0.26666666666666666,
+        "3": 0.26666666666666666,
+        "5": 0.26666666666666666
+      },
+      "mrr": 0.26666666666666666,
+      "failures": 44,
+      "average_latency_ms": 138.06231166624153
+    }
+  }
+}

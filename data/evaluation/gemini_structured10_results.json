@@ -1,0 +1,193 @@
+{
+  "configuration": {
+    "cache_version": "llm-routed-retrieval-v3",
+    "cases": 10,
+    "model": "gemini-3-flash-preview",
+    "provider": "gemini",
+    "sample_ids": [
+      "T001",
+      "T002",
+      "T003",
+      "T004",
+      "T005",
+      "T006",
+      "T007",
+      "T008",
+      "T009",
+      "T010"
+    ]
+  },
+  "routing": {
+    "cases": 10,
+    "valid_route_rate": 0.5,
+    "validated_query_rate": 0.4,
+    "domain_accuracy": 0.4,
+    "entity_accuracy": 0.4,
+    "section_accuracy": 0.1,
+    "valid_prediction_metrics": {
+      "cases": 4,
+      "domain_accuracy": 1.0,
+      "entity_accuracy": 1.0,
+      "section_accuracy": 0.25
+    },
+    "errors": 6
+  },
+  "queries": {
+    "T001": {
+      "query": "history of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 1.0,
+        "reason": "The user is asking for historical information regarding a specific pilgrimage site, which requires factual retrieval.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "history"
+      },
+      "error": null
+    },
+    "T002": {
+      "query": "darshan timings and worship information at Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 1.0,
+        "reason": "The user is requesting specific factual information regarding the operational hours and ritual procedures of a religious site.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "darshan timings and worship information"
+      },
+      "error": null
+    },
+    "T003": {
+      "query": "religious significance of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.98,
+        "reason": "The user is asking for specific factual information regarding the religious importance of the Sri Lakshmi Narasimha Swamy Temple.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0001",
+        "entity_id": "T0001",
+        "canonical_name": "Sri Lakshmi Narasimha Swamy Temple",
+        "matched_alias": "sri lakshmi narasimha swamy temple",
+        "match_type": "exact_alias",
+        "section": "religious significance"
+      },
+      "error": null
+    },
+    "T004": {
+      "query": "architecture of Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T005": {
+      "query": "how to travel to Sri Lakshmi Narasimha Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T006": {
+      "query": "history of Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T007": {
+      "query": "darshan timings and worship information at Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T008": {
+      "query": "religious significance of Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": {
+        "route": "knowledge_query",
+        "confidence": 0.98,
+        "reason": "The user is asking for specific factual information regarding the religious importance and history of the Sri Sita Ramachandra Swamy Temple.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": {
+        "source_type": "temple",
+        "temple_id": "T0002",
+        "entity_id": "T0002",
+        "canonical_name": "Sri Sita Ramachandra Swamy Temple",
+        "matched_alias": "sri sita ramachandra swamy temple",
+        "match_type": "exact_alias",
+        "section": "religious significance"
+      },
+      "error": null
+    },
+    "T009": {
+      "query": "architecture of Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": null,
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+    },
+    "T010": {
+      "query": "how to travel to Sri Sita Ramachandra Swamy Temple",
+      "model": "gemini-3-flash-preview",
+      "route": {
+        "route": "trip_planning",
+        "confidence": 0.95,
+        "reason": "The user is asking for logistics and travel instructions to reach a specific pilgrimage destination.",
+        "requires_retrieval": true,
+        "payload": {}
+      },
+      "validated_query": null,
+      "error": "RuntimeError: Gemini request failed: HTTP Error 429: Too Many Requests"
+    }
+  },
+  "retrieval": {
+    "llm_routed_dense": {
+      "cases": 10,
+      "recall": {
+        "1": 0.1,
+        "3": 0.1,
+        "5": 0.1
+      },
+      "mrr": 0.1,
+      "failures": 9,
+      "average_latency_ms": 318.8150800007861
+    },
+    "llm_routed_hybrid": {
+      "cases": 10,
+      "recall": {
+        "1": 0.1,
+        "3": 0.1,
+        "5": 0.1
+      },
+      "mrr": 0.1,
+      "failures": 9,
+      "average_latency_ms": 179.45866999798454
+    }
+  }
+}

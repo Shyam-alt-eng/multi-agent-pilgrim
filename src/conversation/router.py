@@ -33,9 +33,13 @@ def route_message(
         raise ValueError("message must not be empty")
 
     try:
+        response = dict(llm.generate_json(_router_prompt(message, history)))
+        if isinstance(response.get("payload"), str):
+            response["payload"] = {"question": response["payload"]}
+        elif response.get("payload") is None:
+            response["payload"] = {}
         return ConversationRoute.model_validate(
-            llm.generate_json(_router_prompt(message, history))
+            response
         )
     except (ValidationError, ValueError, TypeError) as exc:
         raise ValueError(f"Invalid conversation-router response: {exc}") from exc
-
